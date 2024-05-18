@@ -43,8 +43,14 @@ def boton_siguiente(navegador): #Se genera la función "boton_siguiente", con el
     #La cadena de texto (CSS_SELECTOR) busca el enlace (a), que tenga como clase xXx, con atributo href el cual contiene la linea '/peliculas/todas-peliculas/?page='
     pagina.click() #Una vez encontrada la linea anterior, da click sobre ella y ejecuta el cambio de página
 
+
 #Funcion para acceder al bloque de peliculas
 
 def acceder_al_bloque(navegador):                                              #Crear el método para acceder al bloque de información de la película
     bloque_pelicula = navegador.find_element(By.CLASS_NAME, "meta-title-link") #Busqueda del título de la película con el que se accederá a la información
     bloque_pelicula.click()                                                    #Da clic en el título de la película
+
+    
+def boton_regresar(navegador):   #Se genera la función "boton_regresar", con el parámetro "navegador"
+    navegador.back()             #Se creó una función para botón de regresar a la página del navegador,
+                                 #usando back, al ejecutarlo, se regresa a la página anterior.
