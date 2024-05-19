@@ -1,0 +1,35 @@
+"""se van a utilizar las siguientes librerias"""
+"""se instala la libreria mysql-connector-pyrhon"""
+from sqlalchemy import create_engine
+from sqlalchemy.exc import SQLAlchemyError
+
+class mysql:                                                #se crea una clase para unir a mysql con python
+    def __init__(self, user, password, server,database):    # Método constructor de la clase, inicializa las credenciales y parámetros de conexión a la base de datos
+        self.user = user                                    # Atributo para almacenar el nombre de usuario de la base de datos
+        self.password = password                            # Atributo para almacenar la contraseña del usuario de la base de datos
+        self.server = server                                # Atributo para almacenar el servidor de la base de datos
+        self.database = database                            # Atributo para almacenar el nombre de la base de datos
+        self.cadena_conexion = self._cadena_conexion()      # Genera la cadena de conexión llamando al método interno _cadena_conexion
+        self.connection = None                              # Atributo para almacenar la conexión a la base de datos, inicializado como None
+
+    def _cadena_conexion(self):                             # Se crea un metodo interno (privado) para construir la cadena de conexión a la base de datos
+        return f"mysql+mysqlconnector://{self.user}:{self.password}@{self.server}/{self.database}"
+
+    def mysql_conectar(self):                                      # Se creo un metodo publico para conectar a la base de datos
+        try:                                                # Intenta ejecutar el siguiente bloque de código
+            engine = create_engine(self.cadena_conexion)    # Crea un motor de conexión a la base de datos usando la cadena de conexión
+            self.connection = engine.connect()              # Establece la conexión y la almacena en el atributo connection
+            print("Conexión exitosa")
+            return self.connection                          # Devuelve la conexión establecida
+        except SQLAlchemyError as e:                        # Captura cualquier excepción que ocurra durante el intento de conexión
+            print(e)                                        # Imprime el mensaje de error
+            return None                                     # Devuelve None si ocurre un error
+
+    def mysql_desconectar(self):                                   # Se creo un metodo publico para desconectar de la base de datos
+        if self.connection:                                 # Verifica si hay una conexión activa
+            try:
+                self.connection.close()                     #  Cierra la conexión a la base de datos
+                self.connection = None                      # Restablece el atributo connection a None
+                print("Desconectado de MySQL")
+            except SQLAlchemyError as e:                    # Captura cualquier excepción que ocurra durante el intento de desconexión
+                print(e)                                    # Imprime el mensaje de error

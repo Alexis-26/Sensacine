@@ -2,6 +2,7 @@
 
 """Importamos las bibliotecas necesarias en este caso selenium y webdriver-manager"""
 import time
+import pandas as pd                                     #importar la librería para crear el dataframe
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -15,31 +16,44 @@ def conexion():
     driver = ChromeDriverManager().install()
     s = Service(driver)                                 #se crea un objeto Service utilizando la ubicacion del controlador
     opc = Options()                                     #se crea un objeto para configurar las opciones del navegador
-    opc.add_argument("--window-size=1020,1200")         #se establece le tamaño de la ventana del navegador
+    opc.add_argument("--start-maximized")         #se establece le tamaño de la ventana del navegador
     navegador = webdriver.Chrome(service=s, options=opc)#crea una instancia del navegador Chrome pasando el servicio y las opciones como argumentos
     navegador.get("https://www.sensacine.com")          #Abre la paguina web especificada
-    time.sleep(10)                                      #se espera 10 seundos
 
     return navegador #retorna la clase navegador
 
 #Función para el botón de Todas las películas
-def todas_las_películas(navegador):
+def top_películas(navegador):
     #Se genera una variable para encontrar el botón de  todas las peliculas.
-    botón = navegador.find_element(By.XPATH,"//*[@id='header-main-nav']/ul/li[1]/div/ul/li[7]/a") 
+    botón = navegador.find_element(By.LINK_TEXT,"Top películas") 
     #Aquí se ingresa al botón dándole click.
     botón.click()
 
 #Función para el botón de Películas
 def peliculas(navegador):                                                   #Crear el método para accionar el botón.
     btnpeliculas = navegador.find_element(By.CLASS_NAME, "header-nav-link") #Busqueda del botón películas y lo guarda en una variable llamada btnpeliculas.
-    time.sleep(5)                                                           #Espera un tiempo para realizar la acción.
+    
     btnpeliculas.click()                                                    #Realiza la accion de clikear sobre el boton películas.
 
 #Código para cambiar de página
 
 def boton_siguiente(navegador): #Se genera la función "boton_siguiente", con el parametro "navegador"
-
-    pagina = navegador.find_element(By.CSS_SELECTOR, "a.xXx[href*='/peliculas/todas-peliculas/?page=']")  
-    #La cadena de texto (CSS_SELECTOR) busca el enlace (a), que tenga como clase xXx, con atributo href el cual contiene la linea '/peliculas/todas-peliculas/?page='
+    pagina = navegador.find_element(By.CSS_SELECTOR, "a.xXx.button.button-md.button-primary-full.button-right")
     pagina.click() #Una vez encontrada la linea anterior, da click sobre ella y ejecuta el cambio de página
 
+#Función para crear un dataframe 
+
+def crear_dataframe(data:dict):             #Creación de un método que recibe como parámetro un diccionario
+    dataframe = pd.DataFrame(data)          #Creacion de un dataframe a partir de un diccionario
+    return dataframe                        #Retorna el dataframe
+
+#Funcion para acceder al bloque de peliculas
+
+def acceder_al_bloque(navegador):                                              #Crear el método para acceder al bloque de información de la película
+    bloque_pelicula = navegador.find_element(By.CLASS_NAME, "meta-title-link") #Busqueda del título de la película con el que se accederá a la información
+    bloque_pelicula.click()                                                    #Da clic en el título de la película
+
+    
+def boton_regresar(navegador):   #Se genera la función "boton_regresar", con el parámetro "navegador"
+    navegador.back()             #Se creó una función para botón de regresar a la página del navegador,
+                                 #usando back, al ejecutarlo, se regresa a la página anterior.
