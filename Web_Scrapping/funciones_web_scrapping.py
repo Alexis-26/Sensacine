@@ -1,8 +1,8 @@
 """Archivo con las funciones para realizar el proceso Web Scrapping."""
 
-"""Importamos las bibliotecas necesarias en este caso selenium y webdriver-manager"""
+"""Importacion de librebrias."""
 import time
-import pandas as pd                                     #importar la librería para crear el dataframe
+import pandas as pd                                     
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
