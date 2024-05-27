@@ -33,3 +33,235 @@ class mysql:                                                #se crea una clase p
                 print("Desconectado de MySQL")
             except SQLAlchemyError as e:                    # Captura cualquier excepción que ocurra durante el intento de desconexión
                 print(e)                                    # Imprime el mensaje de error
+
+"""se van a usar las siguientes librerias para relizar funcionde de llenado"""
+import pandas as pd
+from sqlalchemy.sql import text
+from decimal import Decimal, InvalidOperation
+
+
+"""se realizaron funciones para insertar datos en mysql"""
+def sp_insert_peliculas(db, df):
+
+    for index, row in df.iterrows():
+        nombre = row['pelicula']
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar la película
+                    db.connection.execute(text("CALL sp_insert_pelicula(:nombre)"), {"nombre": nombre.strip()})
+                print(f"Se inserto la pelicula: {nombre}")
+            except SQLAlchemyError as e:
+                print(e)
+    print("listo")
+
+def sp_insert_director(db, df):
+
+    for index, row in df.iterrows():
+        nombre = row['director']
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar la película
+                    db.connection.execute(text("CALL sp_insert_director(:nombre)"), {"nombre": nombre.strip()})
+                print(f"Se inserto el director: {nombre}")
+            except SQLAlchemyError as e:
+                print(e)
+
+def sp_insert_estreno(db, df):
+    # Filtrar películas únicas
+    peliculas_unicas = df.drop_duplicates(subset=['pelicula'])
+
+    for index, row in peliculas_unicas.iterrows():
+        tipo_estreno = row['tipo_estreno']
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar el estreno
+                    db.connection.execute(
+                        text("CALL sp_insert_estreno(:tipo_estreno)"),
+                        {"tipo_estreno": tipo_estreno.strip()}
+                    )
+                print(f"Se inserto el estreno: {tipo_estreno}")
+            except SQLAlchemyError as e:
+                print(f"Error al insertar el estreno: {e}")
+    print("listo")
+
+def sp_insert_genero(db, df):
+    for index, row in df.iterrows():
+        nombre = row['genero']
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar la película
+                    db.connection.execute(text("CALL sp_insert_genero(:nombre)"), {"nombre": nombre.strip()})
+                print(f"Se inserto el genero: {nombre}")
+            except SQLAlchemyError as e:
+                print(e)
+    print("listo")
+
+def sp_insert_idioma(db, df):
+    for index, row in df.iterrows():
+        nombre = row['idioma']
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar la idioma
+                    db.connection.execute(text("CALL sp_insert_idioma(:nombre)"), {"nombre": nombre.strip()})
+                print(f"Se inserto el idioma: {nombre}")
+            except SQLAlchemyError as e:
+                print(e)
+    print("listo")
+
+def sp_insert_puntaje(db, df):
+    # Función para convertir None si es NaN
+    def fnan(val):
+        if pd.isna(val):
+            return None
+    # Manejar NaNs
+    df['calf_medios'] = df['calf_medios'].apply(fnan)
+    df['calf_usuarios'] = df['calf_usuarios'].apply(fnan)
+    df['calf_sensacine'] = df['calf_sensacine'].apply(fnan)
+
+    # Seleccionar solo las columnas que queremos
+    df = df[['pelicula', 'calf_medios', 'calf_usuarios', 'calf_sensacine']]
+    # Eliminar filas duplicadas basadas en la columna 'id_pelicula'
+    df_sin_duplicados = df.drop_duplicates(subset=['pelicula'])
+    for index, row in df_sin_duplicados.iterrows():
+        medios = row['calf_medios']
+        usuarios = row['calf_usuarios']
+        sensacine = row['calf_sensacine']
+        id_pelicula = row['pelicula']
+
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar el puntaje
+                    db.connection.execute(
+                        text("CALL sp_insert_puntaje(:medios, :usuarios, :sensacine, :id_pelicula)"),
+                        {
+                            "medios": medios,
+                            "usuarios": usuarios,
+                            "sensacine": sensacine,
+                            "id_pelicula": id_pelicula
+                        }
+                    )
+                print(f"Datos de puntaje insertados correctamente para id_pelicula={id_pelicula}")
+            except SQLAlchemyError as e:
+                print(f"Error al insertar puntaje para id_pelicula={id_pelicula}: {e}")
+
+def sp_insert_especificaciones_tecnicas(db, df):
+    # Manejar NaNs
+    df['nacionalidad'] = df['nacionalidad'].apply(lambda x: None if pd.isna(x) else x)
+    df['distribuidora'] = df['distribuidora'].apply(lambda x: None if pd.isna(x) else x)
+    df['presupuesto'] = df['presupuesto'].apply(lambda x: None if pd.isna(x) else x)
+    df['fecha_produccion'] = df['fecha_produccion'].apply(lambda x: None if pd.isna(x) else x)
+    df['pelicula'] = df['pelicula'].apply(lambda x: None if pd.isna(x) else x)
+
+    for index, row in df.iterrows():
+        nacionalidad = row['nacionalidad']
+        distribuidora = row['distribuidora']
+        presupuestos = row['presupuesto']
+        año_produccion = row['fecha_produccion']
+        nombre_pelicula = row['pelicula']
+
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar las especificaciones técnicas
+                    db.connection.execute(
+                        text(
+                            "CALL sp_insert_especificaciones_tecnicas(:nacionalidad, :distribuidora, :presupuestos, :año_produccion, :nombre_pelicula)"),
+                        {
+                            "nacionalidad": nacionalidad,
+                            "distribuidora": distribuidora,
+                            "presupuestos": presupuestos,
+                            "año_produccion": año_produccion,
+                            "nombre_pelicula": nombre_pelicula
+                        }
+                    )
+                print(f"Especificaciones técnicas insertadas para la película: {nombre_pelicula}")
+            except SQLAlchemyError as e:
+                print(f"Error al insertar especificaciones técnicas para la película {nombre_pelicula}: {e}")
+
+def sp_insert_director_pelicula(db, df):
+    try:
+        for index, row in df.iterrows():
+            nombre_director = row['director'].strip()
+            pelicula = row['pelicula'].strip()
+
+            if db.connection:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar la relación director_pelicula
+                    db.connection.execute(
+                        text("CALL sp_insert_director_pelicula(:nombre_director, :pelicula)"),
+                        {
+                            "nombre_director": nombre_director,
+                            "pelicula": pelicula
+                        }
+                    )
+                print(f"Se inserto el id del director: {nombre_director} y de la pelicula:{pelicula} ")
+    except SQLAlchemyError as e:
+        print(e)
+
+def sp_insert_genero_pelicula(db, df):
+    try:
+        for index, row in df.iterrows():
+            id_genero = row['genero'].strip()
+            id_pelicula = row['pelicula'].strip()
+
+            if db.connection:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar la relación genero_pelicula
+                    db.connection.execute(
+                        text("CALL sp_insert_genero_pelicula(:id_genero, :id_pelicula)"),
+                        {
+                            "id_genero": id_genero,
+                            "id_pelicula": id_pelicula
+                        }
+                    )
+                print(f"Se inserto el id del genero: {id_genero} y de la pelicula:{id_pelicula} ")
+    except SQLAlchemyError as e:
+        print(e)
+
+def sp_insert_idioma_pelicula(db, df):
+    try:
+        for index, row in df.iterrows():
+            idioma = row['idioma'].strip()
+            pelicula = row['pelicula'].strip()
+
+            if db.connection:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar la relación director_pelicula
+                    db.connection.execute(
+                        text("CALL sp_insert_idioma_pelicula(:idioma, :pelicula)"),
+                        {
+                            "idioma": idioma,
+                            "pelicula": pelicula
+                        }
+                    )
+                print(f"Se inserto el id del idioma: {idioma} y de la pelicula:{pelicula} ")
+    except SQLAlchemyError as e:
+        print(e)
+
+def sp_insert_detalle_pelicula(db, df):
+    df_no_duplicada = df.drop_duplicates(subset=['pelicula'])
+    for index, row in df_no_duplicada.iterrows():
+        duracion_insertar = row['duracion']
+        nombre_pelicula_insertar = row['pelicula'].strip()
+
+        if db.connection:
+            try:
+                with db.connection.begin() as transaction:
+                    # Llama al procedimiento almacenado para insertar el detalle de la película
+                    db.connection.execute(
+                        text("CALL sp_insert_detalle_pelicula(:duracion, :nombre_pelicula)"),
+                        {
+                            "duracion": duracion_insertar,
+                            "nombre_pelicula": nombre_pelicula_insertar
+                        }
+                    )
+                print(f"Se inserto la duracion de: {duracion_insertar} de la pelicula:{nombre_pelicula_insertar} ")
+            except SQLAlchemyError as e:
+                print(f"Error: {e}")
+    print("listo")
