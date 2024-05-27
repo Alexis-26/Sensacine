@@ -22,3 +22,43 @@ def formato_fecha(df:pd.DataFrame):                                             
 def formato_presupuesto(df:pd.DataFrame):                                                           #creamos un metodo que reciba como parámetro un dataframe
     df["presupuesto"] = df["presupuesto"].str.replace(" USD", "").str.replace(" ", "").astype(int)  #seleccionamos la columna a modificar utilizando él .str.replace para que USD y espacios en blanco se eliminan y posteriormente cambie el dato a int
     return df                                                                                       #retorna el dataframe
+
+def medios(df: pd.DataFrame):
+    df["calf_medios"] = df["calf_medios"].str.strip().str.replace(',', '.')# creamos un método en donde elimina los espacios que pueda
+                                                                            # contener y sustituya la "coma" por un "punto", por lo tanto
+                                                                            # retorne el dataframe limpio
+    return df
+
+
+def usuario(df: pd.DataFrame):
+    df["calf_usuarios"] = df["calf_usuarios"].str.strip().str.replace(',', '.')# creamos un método en donde elimina los espacios que pueda
+                                                                                # contener y sustituya la "coma" por un "punto", por lo tanto
+                                                                                # retorne el dataframe limpio.
+    return df
+
+def sensacine(df: pd.DataFrame):
+    df['calf_sensacine'] = df['calf_sensacine'].str.strip().str.replace(',', '.')# creamos un método en donde elimina los espacios que pueda
+                                                                                # contener y sustituya la "coma" por un "punto", por lo tanto
+                                                                                # retorne el dataframe limpio
+    return df
+
+
+def fecha_produccion(df):
+    df["fecha_produccion"] = df["fecha_produccion"].astype(str)# creamos un método en donde convierte int a str,
+                                                            
+    df["fecha_produccion"] = pd.to_datetime(df["fecha_produccion"])# para luego convertilo  tipo datetime
+
+    return df   # retorne el dataframe limpio
+
+def tipo_estreno(df: pd.DataFrame):
+
+    df['tipo_estreno'] = df['tipo_estreno'].str.replace('\n', '') # creamos un método elimine las palabras que tenga "en" y "\n"
+    df['tipo_estreno'] = df['tipo_estreno'].str.replace('en', '')
+    df['tipo_estreno'] = df['tipo_estreno'].str.strip()  #  donde elimina los espacios que pueda ver 
+    df['tipo_estreno'] = df['tipo_estreno'].str.capitalize() # y vuelva mayuscula la primera letra de la palabra y retorne el dataframe limpio
+          
+    return df       #y retorne el dataframe limpio                                              
+                                                                      
+                                             
+                                                                 
+   
