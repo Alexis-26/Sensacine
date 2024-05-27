@@ -188,15 +188,24 @@ def extraccion_informacion(soup:BeautifulSoup):
 
     info_distribuidora = renglones_info[1]
     distribuidora = info_distribuidora.find("a", attrs={"class":"xXx that blue-link"})
-
+    
     info_fecha_produccion = renglones_info[2]
     fecha_produccion = info_fecha_produccion.find("span", attrs={"class":"that"})
 
     info_presupuesto = renglones_info[5]
     presupuesto = info_presupuesto.find("span", attrs={"class":"that"})
-    
+    if presupuesto is None:
+        info_presupuesto = renglones_info[4]
+        presupuesto = info_presupuesto.find("span", attrs={"class":"that"})
+
     info_idioma = renglones_info[7]
     idioma = info_idioma.find("span", attrs={"class":"that"})
+    if idioma is None:
+        info_idioma = renglones_info[8]
+        idioma = info_idioma.find("span", attrs={"class":"that"})
+    elif idioma is None:
+        info_idioma = renglones_info[6]
+        idioma = info_idioma.find("span", attrs={"class":"that"})
 
     """Realizando proceso de eliminacion de elementos html provenientes del la recoleccion de datos."""
     idioma_text = idioma.text.strip()
