@@ -16,12 +16,20 @@ def formato_fecha(df:pd.DataFrame):                                             
     df["fecha_estreno"] = df["fecha_estreno"].str.replace("\n", "").str.strip()                                   #seleccionamos la columna a modificar y con .str.replace("\n","") elimina los espacios en blanco y los \n
     df["fecha_estreno"] = df["fecha_estreno"].str.replace("de","/").str.strip()                                   #seleccionamos la columna a modificar y con .str.replace("de","") elimina los espacios en blanco y los "de" que contiene la fecha
     df["fecha_estreno"] = df["fecha_estreno"].replace(meses_dict, regex=True)                                     #seleccionamos la columna a modificar y aplicamos el diccionario para que se reemplace con el numero del mes
-    df["fecha_estreno"] = pd.to_datetime(df["fecha_estreno"], format="%d / %m / %Y")                              #seleccionamos la columna a modificar y la convertimos a tipo datetime
+    df["fecha_estreno"] = pd.to_datetime(df["fecha_estreno"], dayfirst=False)                              #seleccionamos la columna a modificar y la convertimos a tipo datetime
     return df                                                                                                     #retorna el dataframe modificado
 
 def formato_presupuesto(df:pd.DataFrame):                                                           #creamos un metodo que reciba como parámetro un dataframe
-    df["presupuesto"] = df["presupuesto"].str.replace(" USD", "").str.replace(" ", "").astype(int)  #seleccionamos la columna a modificar utilizando él .str.replace para que USD y espacios en blanco se eliminan y posteriormente cambie el dato a int
+    df["presupuesto"] = df["presupuesto"].str.replace(" USD", "").str.replace(" EUR", "").str.replace(" ", "").str.replace("-", "0").astype(int)  #seleccionamos la columna a modificar utilizando él .str.replace para que USD y espacios en blanco se eliminan y posteriormente cambie el dato a int
     return df                                                                                       #retorna el dataframe
+
+def idioma_default(df:pd.DataFrame):
+    df["idioma"] = df["idioma"].str.replace("-", "Inglés")
+    return df
+
+def eliminar_filas(df:pd.DataFrame, valor:str, columna:str):
+    df = df[df[columna] != valor]
+    return df
 
 def medios(df: pd.DataFrame):
     df["calf_medios"] = df["calf_medios"].str.strip().str.replace(',', '.')# creamos un método en donde elimina los espacios que pueda
@@ -57,8 +65,4 @@ def tipo_estreno(df: pd.DataFrame):
     df['tipo_estreno'] = df['tipo_estreno'].str.strip()  #  donde elimina los espacios que pueda ver 
     df['tipo_estreno'] = df['tipo_estreno'].str.capitalize() # y vuelva mayuscula la primera letra de la palabra y retorne el dataframe limpio
           
-    return df       #y retorne el dataframe limpio                                              
-                                                                      
-                                             
-                                                                 
-   
+    return df       #y retorne el dataframe limpio                                                                            
