@@ -48,16 +48,10 @@ CALL sp_insert_director()
 
 /* Creación de procedure para insertar en la tabla estreno, donde válida con el nombre */
 DELIMITER //
-
-CREATE PROCEDURE sp_insert_estreno(
-    IN nombre_estreno_insertar VARCHAR(100),
-    IN nombre_pelicula_insertar VARCHAR(100)
-)
-DELIMITER //
 CREATE PROCEDURE sp_insert_estreno(
     IN nombre_insertar VARCHAR(100))
 BEGIN
-    INSERT INTO estreno(nombre)
+    INSERT INTO tipo_estreno(nombre)
     VALUES(nombre_insertar);
 END//
 DELIMITER ;
@@ -373,8 +367,8 @@ BEGIN
     END IF;
 
     -- Insertar en detalle_pelicula usando el id_pelicula y los mismos valores para los otros campos
-    INSERT INTO detalle_pelicula (fecha, duracion, id_pelicula, id_estreno, id_directorp, id_generop, id_idiomap)
-    VALUES (fecha_insertar, duracion_insertar, id_pelicula_insertar, id_pelicula_insertar, id_pelicula_insertar, id_pelicula_insertar, id_pelicula_insertar);
+    INSERT INTO detalle_pelicula (duracion, fecha_de_estreno, id_pelicula, id_estreno, id_directorp, id_generop, id_idiomap)
+    VALUES (duracion_insertar, fecha_insertar, id_pelicula_insertar, id_pelicula_insertar, id_pelicula_insertar, id_pelicula_insertar, id_pelicula_insertar);
 END //
 
 DELIMITER ;
