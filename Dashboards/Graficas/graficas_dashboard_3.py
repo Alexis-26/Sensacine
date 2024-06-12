@@ -1,44 +1,53 @@
 #Importando las librerias necesarias.
-import consultas_bd as cbd
 import pandas as pd
 import plotly.express as px
 from dash import dcc, dash_table, callback, Input, Output
 
+df = None
+
 """Creando grafica de lineas y retornando su id y la propiedad con la grafica."""
 def grafica_lineas(data:pd.DataFrame):
+    global df_org
+    df_org = data
     line = px.line(data, x="año", y="total_presupuesto")
     line.update_layout(
-        plot_bgcolor='#1b1a1a',
-        paper_bgcolor='#1b1a1a',
-        font_color='#faca0a'
+        plot_bgcolor="#2B2A2A",
+        paper_bgcolor="#2B2A2A",
+        font_color="#ffffff"
     )
-    line.update_traces(marker=dict(color='#faca0a'))
+    line.update_traces(marker=dict(color="#faca0a"))
     return dcc.Graph(id="dash3line", figure=line)
 
 """Creando grafica de histograma y retornando su id y la propiedad con la grafica."""
 def grafica_histograma(data:pd.DataFrame):
+    global df_org
+    df_org = data
     hist = px.histogram(data,  x="año")
     hist.update_layout(
-        plot_bgcolor='#1b1a1a',
-        paper_bgcolor='#1b1a1a',
-        font_color='#faca0a'
+        plot_bgcolor="#2B2A2A",
+        paper_bgcolor="#2B2A2A",
+        font_color="#ffffff"
     )
-    hist.update_traces(marker=dict(color='#faca0a'))
+    hist.update_traces(marker=dict(color="#faca0a"))
     return dcc.Graph(id="dash3histograma", figure=hist)
 
 """Creando grafica de barras y retornando su id y la propiedad con la grafica."""
 def grafica_barras(data:pd.DataFrame):
+    global df_org
+    df_org = data
     bar = px.bar(data, x="año", y="total_presupuesto")
     bar.update_layout(
-        plot_bgcolor='#1b1a1a',
-        paper_bgcolor='#1b1a1a',
-        font_color='#faca0a'
+        plot_bgcolor="#2B2A2A",
+        paper_bgcolor="#2B2A2A",
+        font_color="#ffffff"
     )
-    bar.update_traces(marker=dict(color='#faca0a'))
+    bar.update_traces(marker=dict(color="#faca0a"))
     return dcc.Graph(id="dash3bar", figure=bar)
 
 """Creando la tabla con los datos utilizados y retornando su id con la propiedad data."""
 def grafica_tabla(data:pd.DataFrame):
+    global df_org
+    df_org = data
     tabla = dash_table.DataTable(id="dash3tabla", data= data.to_dict("records"), page_size=10)
     return tabla
 
@@ -55,8 +64,7 @@ Se realiza la funcion para actualizar los datos con relaccion a lo seleccionado 
     Input(component_id="rtiempo", component_property="value")
 )
 def evento(opcion, rango):
-    conexionbd = cbd.connect_db()
-    df = cbd.df_presupuesto_fecha(conexionbd)
+    df = df_org
     data = None
 
     if opcion == "Total de presupuesto":
@@ -72,24 +80,24 @@ def evento(opcion, rango):
     df_filtrado = df[(df["año"] >= min_val) & (df["año"] <= max_val)]
     line = px.line(df_filtrado, x="año", y=data)
     line.update_layout(
-        plot_bgcolor='#1b1a1a',
-        paper_bgcolor='#1b1a1a',
-        font_color='#faca0a'
+        plot_bgcolor="#2B2A2A",
+        paper_bgcolor="#2B2A2A",
+        font_color="#ffffff"
     )
-    line.update_traces(marker=dict(color='#faca0a'))
+    line.update_traces(marker=dict(color="#faca0a"))
     hist = px.histogram(df_filtrado, x="año", y=data)
     hist.update_layout(
-        plot_bgcolor='#1b1a1a',
-        paper_bgcolor='#1b1a1a',
-        font_color='#faca0a'
+        plot_bgcolor="#2B2A2A",
+        paper_bgcolor="#2B2A2A",
+        font_color="#ffffff"
     )
-    hist.update_traces(marker=dict(color='#faca0a'))
-    bar = px.bar(df, x="año", y=data)
+    hist.update_traces(marker=dict(color="#faca0a"))
+    bar = px.bar(df_filtrado, x="año", y=data)
     bar.update_layout(
-        plot_bgcolor='#1b1a1a',
-        paper_bgcolor='#1b1a1a',
-        font_color='#faca0a'
+        plot_bgcolor="#2B2A2A",
+        paper_bgcolor="#2B2A2A",
+        font_color="#ffffff"
     )
-    bar.update_traces(marker=dict(color='#faca0a'))
+    bar.update_traces(marker=dict(color="#faca0a"))
     tabla = df_filtrado.to_dict("records")
     return line, hist, bar, tabla
