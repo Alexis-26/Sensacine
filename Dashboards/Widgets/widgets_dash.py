@@ -2,6 +2,7 @@ import pandas as pd
 import dash                                                #Importamos la librería de Dash
 import dash_bootstrap_components as dbc                    #Importamos los componentes de Bootstrap para Dash
 from dash import Input, Output, dcc, html     
+
 def widgets_dropdown_dir():                                                     #Se realizó una función para la visualización de un botón desplegable
     califdir = html.Div([                   
     dcc.Dropdown(["Usuarios", "Medios", "Sensacine"], "Usuarios", id="ddcalf",) #Se despliega usuarios, medios y sensacine, predeterminando viaualizualmente Usuarios
