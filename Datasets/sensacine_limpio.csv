@@ -1,0 +1,583 @@
+pelicula,fecha_estreno,tipo_estreno,duracion,genero,director,calf_medios,calf_usuarios,calf_sensacine,nacionalidad,distribuidora,fecha_produccion,presupuesto,idioma
+The Godfather,1972-10-20,Cines,2h 55min,Crimen,Francis Ford Coppola,4.8,4.7,, EE.UU., 39 Escalones ,1972-01-01,6000000,Inglés
+The Godfather,1972-10-20,Cines,2h 55min,Crimen,Francis Ford Coppola,4.8,4.7,, EE.UU., 39 Escalones ,1972-01-01,6000000,Italiano
+The Godfather,1972-10-20,Cines,2h 55min,Crimen,Francis Ford Coppola,4.8,4.7,, EE.UU., 39 Escalones ,1972-01-01,6000000,Latín
+The Godfather,1972-10-20,Cines,2h 55min,Drama,Francis Ford Coppola,4.8,4.7,, EE.UU., 39 Escalones ,1972-01-01,6000000,Inglés
+The Godfather,1972-10-20,Cines,2h 55min,Drama,Francis Ford Coppola,4.8,4.7,, EE.UU., 39 Escalones ,1972-01-01,6000000,Italiano
+The Godfather,1972-10-20,Cines,2h 55min,Drama,Francis Ford Coppola,4.8,4.7,, EE.UU., 39 Escalones ,1972-01-01,6000000,Latín
+Schindler's List,1994-03-04,Cines,3h 15min,Biopic,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Inglés
+Schindler's List,1994-03-04,Cines,3h 15min,Biopic,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Alemán
+Schindler's List,1994-03-04,Cines,3h 15min,Biopic,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Hebreo
+Schindler's List,1994-03-04,Cines,3h 15min,Drama,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Inglés
+Schindler's List,1994-03-04,Cines,3h 15min,Drama,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Alemán
+Schindler's List,1994-03-04,Cines,3h 15min,Drama,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Hebreo
+Schindler's List,1994-03-04,Cines,3h 15min,Histórico,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Inglés
+Schindler's List,1994-03-04,Cines,3h 15min,Histórico,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Alemán
+Schindler's List,1994-03-04,Cines,3h 15min,Histórico,Steven Spielberg,4.5,4.6,3.0, EE.UU., Universal Pictures International Spain ,1993-01-01,25000000,Hebreo
+The Godfather: Part II,1975-10-13,Cines,3h 20min,Crimen,Francis Ford Coppola,3.9,4.6,, EE.UU.,,1974-01-01,13000000,Inglés
+The Godfather: Part II,1975-10-13,Cines,3h 20min,Drama,Francis Ford Coppola,3.9,4.6,, EE.UU.,,1974-01-01,13000000,Inglés
+The Shawshank Redemption,1995-02-24,Cines,2h 22min,Drama,Frank Darabont,4.3,4.6,4.0, EE.UU., Filmayer ,1994-01-01,25000000,Inglés
+La vita e bella,1999-02-26,Cines,1h 57min,Comedia,Roberto Benigni,4.2,4.6,2.5, Italia, Lauren Film ,1998-01-01,0,Inglés
+La vita e bella,1999-02-26,Cines,1h 57min,Comedia dramática,Roberto Benigni,4.2,4.6,2.5, Italia, Lauren Film ,1998-01-01,0,Inglés
+La vita e bella,1999-02-26,Cines,1h 57min,Drama,Roberto Benigni,4.2,4.6,2.5, Italia, Lauren Film ,1998-01-01,0,Inglés
+Forrest Gump,1994-09-23,Cines,2h 20min,Comedia,Robert Zemeckis,4.1,4.6,3.5, EE.UU., Paramount Pictures Spain ,1994-01-01,55000000,Inglés
+Forrest Gump,1994-09-23,Cines,2h 20min,Drama,Robert Zemeckis,4.1,4.6,3.5, EE.UU., Paramount Pictures Spain ,1994-01-01,55000000,Inglés
+Forrest Gump,1994-09-23,Cines,2h 20min,Romántico,Robert Zemeckis,4.1,4.6,3.5, EE.UU., Paramount Pictures Spain ,1994-01-01,55000000,Inglés
+Gladiator,2000-05-17,Cines,2h 35min,Acción,Ridley Scott,3.9,4.6,2.0, EE.UU., Universal Pictures International Spain ,2000-01-01,103000000,Inglés
+Gladiator,2000-05-17,Cines,2h 35min,Aventura,Ridley Scott,3.9,4.6,2.0, EE.UU., Universal Pictures International Spain ,2000-01-01,103000000,Inglés
+Gladiator,2000-05-17,Cines,2h 35min,Histórico,Ridley Scott,3.9,4.6,2.0, EE.UU., Universal Pictures International Spain ,2000-01-01,103000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Aventura,Roger Allers,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Aventura,Rob Minkoff,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Animación,Roger Allers,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Animación,Rob Minkoff,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Familia,Roger Allers,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Familia,Rob Minkoff,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Comedia musical,Roger Allers,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Lion King,1994-11-11,Cines,1h 29min,Comedia musical,Rob Minkoff,4.5,4.6,2.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1994-01-01,45000000,Inglés
+The Dark Knight,2008-08-13,Cines,2h 32min,Acción,Christopher Nolan,5.0,4.6,3.5, EE.UU., Warner Bros Pictures España ,2008-01-01,180000000,Inglés
+The Dark Knight,2008-08-13,Cines,2h 32min,Suspense,Christopher Nolan,5.0,4.6,3.5, EE.UU., Warner Bros Pictures España ,2008-01-01,180000000,Inglés
+Pulp Fiction,1995-01-13,Cines,2h 29min,Crimen,Quentin Tarantino,4.6,4.5,4.5, EE.UU., 39 Escalones ,1994-01-01,8000000,Inglés
+Pulp Fiction,1995-01-13,Cines,2h 29min,Drama,Quentin Tarantino,4.6,4.5,4.5, EE.UU., 39 Escalones ,1994-01-01,8000000,Inglés
+The Lord of the Rings: The Fellowship of the Ring,2001-12-21,Cines,2h 58min,Aventura,Peter Jackson,4.6,4.5,4.0, EE.UU., Warner Bros Pictures España ,2001-01-01,90000000,Inglés
+The Lord of the Rings: The Fellowship of the Ring,2001-12-21,Cines,2h 58min,Fantasía,Peter Jackson,4.6,4.5,4.0, EE.UU., Warner Bros Pictures España ,2001-01-01,90000000,Inglés
+The Pianist,2002-12-13,Cines,2h 28min,Drama,Roman Polanski,4.6,4.5,3.5, Francia, DeaPlaneta ,2002-01-01,35000000,Inglés
+The Pianist,2002-12-13,Cines,2h 28min,Histórico,Roman Polanski,4.6,4.5,3.5, Francia, DeaPlaneta ,2002-01-01,35000000,Inglés
+Goodfellas,1990-10-19,Cines,2h 25min,Crimen,Martin Scorsese,5.0,4.5,5.0, EE.UU., Warner Bros Pictures España ,1990-01-01,25000000,Inglés
+Goodfellas,1990-10-19,Cines,2h 25min,Drama,Martin Scorsese,5.0,4.5,5.0, EE.UU., Warner Bros Pictures España ,1990-01-01,25000000,Inglés
+The Lord of the Rings: The Return of the King,2003-12-17,Cines,3h 21min,Aventura,Peter Jackson,4.6,4.5,3.5, EE.UU., Warner Bros Pictures España ,2003-01-01,94000000,Inglés
+The Lord of the Rings: The Return of the King,2003-12-17,Cines,3h 21min,Fantasía,Peter Jackson,4.6,4.5,3.5, EE.UU., Warner Bros Pictures España ,2003-01-01,94000000,Inglés
+Avengers: Infinity War,2018-04-27,Cines,2h 36min,Acción,Joe Russo,3.7,4.5,3.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+Avengers: Infinity War,2018-04-27,Cines,2h 36min,Acción,Anthony Russo,3.7,4.5,3.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+Avengers: Infinity War,2018-04-27,Cines,2h 36min,Aventura,Joe Russo,3.7,4.5,3.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+Avengers: Infinity War,2018-04-27,Cines,2h 36min,Aventura,Anthony Russo,3.7,4.5,3.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+Avengers: Infinity War,2018-04-27,Cines,2h 36min,Ciencia ficción,Joe Russo,3.7,4.5,3.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+Avengers: Infinity War,2018-04-27,Cines,2h 36min,Ciencia ficción,Anthony Russo,3.7,4.5,3.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+Intouchables,2012-03-09,Cines,1h 52min,Biopic,Eric Toledano,2.5,4.5,2.0, Francia, A Contracorriente Films ,2011-01-01,9500000,Inglés
+Intouchables,2012-03-09,Cines,1h 52min,Biopic,Olivier Nakache,2.5,4.5,2.0, Francia, A Contracorriente Films ,2011-01-01,9500000,Inglés
+Intouchables,2012-03-09,Cines,1h 52min,Comedia,Eric Toledano,2.5,4.5,2.0, Francia, A Contracorriente Films ,2011-01-01,9500000,Inglés
+Intouchables,2012-03-09,Cines,1h 52min,Comedia,Olivier Nakache,2.5,4.5,2.0, Francia, A Contracorriente Films ,2011-01-01,9500000,Inglés
+Intouchables,2012-03-09,Cines,1h 52min,Drama,Eric Toledano,2.5,4.5,2.0, Francia, A Contracorriente Films ,2011-01-01,9500000,Inglés
+Intouchables,2012-03-09,Cines,1h 52min,Drama,Olivier Nakache,2.5,4.5,2.0, Francia, A Contracorriente Films ,2011-01-01,9500000,Inglés
+The Lord of the Rings: The Two Towers,2002-12-18,Cines,2h 59min,Aventura,Peter Jackson,4.5,4.5,3.5, EE.UU., Warner Bros Pictures España ,2002-01-01,94000000,Inglés
+The Lord of the Rings: The Two Towers,2002-12-18,Cines,2h 59min,Fantasía,Peter Jackson,4.5,4.5,3.5, EE.UU., Warner Bros Pictures España ,2002-01-01,94000000,Inglés
+Saving Private Ryan,1998-09-18,Cines,2h 43min,Drama,Steven Spielberg,5.0,4.5,3.5, EE.UU., Paramount Pictures Spain ,1998-01-01,70000000,Inglés
+Saving Private Ryan,1998-09-18,Cines,2h 43min,Guerra,Steven Spielberg,5.0,4.5,3.5, EE.UU., Paramount Pictures Spain ,1998-01-01,70000000,Inglés
+Sen to Chihiro no Kamikakushi,2002-10-18,Cines,2h 05min,Aventura,Hayao Miyazaki,5.0,4.5,4.0, Japón, Vértigo Films España ,2001-01-01,1900000,Japonés
+Sen to Chihiro no Kamikakushi,2002-10-18,Cines,2h 05min,Animación,Hayao Miyazaki,5.0,4.5,4.0, Japón, Vértigo Films España ,2001-01-01,1900000,Japonés
+Sen to Chihiro no Kamikakushi,2002-10-18,Cines,2h 05min,Fantasía,Hayao Miyazaki,5.0,4.5,4.0, Japón, Vértigo Films España ,2001-01-01,1900000,Japonés
+Star Wars: Episode IV - A New Hope,1977-11-07,Cines,2h 01min,Aventura,George Lucas,4.8,4.5,, EE.UU., Twentieth Century Studios España ,1977-01-01,11500000,Inglés
+Star Wars: Episode IV - A New Hope,1977-11-07,Cines,2h 01min,Ciencia ficción,George Lucas,4.8,4.5,, EE.UU., Twentieth Century Studios España ,1977-01-01,11500000,Inglés
+Coco,2017-12-01,Cines,1h 45min,Animación,Adrian Molina,4.0,4.5,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2017-01-01,0,Inglés
+Coco,2017-12-01,Cines,1h 45min,Animación,Lee Unkrich,4.0,4.5,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2017-01-01,0,Inglés
+Coco,2017-12-01,Cines,1h 45min,Familia,Adrian Molina,4.0,4.5,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2017-01-01,0,Inglés
+Coco,2017-12-01,Cines,1h 45min,Familia,Lee Unkrich,4.0,4.5,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2017-01-01,0,Inglés
+Coco,2017-12-01,Cines,1h 45min,Fantasía,Adrian Molina,4.0,4.5,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2017-01-01,0,Inglés
+Coco,2017-12-01,Cines,1h 45min,Fantasía,Lee Unkrich,4.0,4.5,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2017-01-01,0,Inglés
+Se7en,1996-01-12,Cines,2h 10min,Crimen,David Fincher,4.1,4.5,3.5, EE.UU., Aurum ,1995-01-01,30000000,Inglés
+Se7en,1996-01-12,Cines,2h 10min,Drama,David Fincher,4.1,4.5,3.5, EE.UU., Aurum ,1995-01-01,30000000,Inglés
+Se7en,1996-01-12,Cines,2h 10min,Suspense,David Fincher,4.1,4.5,3.5, EE.UU., Aurum ,1995-01-01,30000000,Inglés
+The Silence of the Lambs,1991-09-06,Cines,1h 58min,Crimen,Jonathan Demme,4.4,4.5,4.5, EE.UU., Twentieth Century Studios España ,1991-01-01,0,Inglés
+The Silence of the Lambs,1991-09-06,Cines,1h 58min,Drama,Jonathan Demme,4.4,4.5,4.5, EE.UU., Twentieth Century Studios España ,1991-01-01,0,Inglés
+The Silence of the Lambs,1991-09-06,Cines,1h 58min,Suspense,Jonathan Demme,4.4,4.5,4.5, EE.UU., Twentieth Century Studios España ,1991-01-01,0,Inglés
+Toy Story,1996-03-15,Cines,1h 17min,Animación,John Lasseter,4.7,4.5,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1995-01-01,30000000,Inglés
+Toy Story,1996-03-15,Cines,1h 17min,Comedia,John Lasseter,4.7,4.5,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1995-01-01,30000000,Inglés
+Toy Story,1996-03-15,Cines,1h 17min,Familia,John Lasseter,4.7,4.5,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1995-01-01,30000000,Inglés
+Star Wars: Episode V - The Empire Strikes Back,1980-10-03,Cines,2h 04min,Aventura,Irvin Kershner,3.7,4.5,, EE.UU., Twentieth Century Studios España ,1980-01-01,30000000,Inglés
+Star Wars: Episode V - The Empire Strikes Back,1980-10-03,Cines,2h 04min,Ciencia ficción,Irvin Kershner,3.7,4.5,, EE.UU., Twentieth Century Studios España ,1980-01-01,30000000,Inglés
+Avengers: Endgame,2019-04-25,Cines,3h 01min,Acción,Joe Russo,4.1,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2019-01-01,0,Inglés
+Avengers: Endgame,2019-04-25,Cines,3h 01min,Acción,Anthony Russo,4.1,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2019-01-01,0,Inglés
+Avengers: Endgame,2019-04-25,Cines,3h 01min,Aventura,Joe Russo,4.1,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2019-01-01,0,Inglés
+Avengers: Endgame,2019-04-25,Cines,3h 01min,Aventura,Anthony Russo,4.1,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2019-01-01,0,Inglés
+Avengers: Endgame,2019-04-25,Cines,3h 01min,Ciencia ficción,Joe Russo,4.1,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2019-01-01,0,Inglés
+Avengers: Endgame,2019-04-25,Cines,3h 01min,Ciencia ficción,Anthony Russo,4.1,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2019-01-01,0,Inglés
+Scarface,1984-03-12,Cines,2h 45min,Crimen,Brian De Palma,,4.5,4.5, EE.UU., Universal Pictures International Spain ,1983-01-01,25000000,Inglés
+Scarface,1984-03-12,Cines,2h 45min,Crimen,Brian De Palma,,4.5,4.5, EE.UU., Universal Pictures International Spain ,1983-01-01,25000000,Español
+Scarface,1984-03-12,Cines,2h 45min,Drama,Brian De Palma,,4.5,4.5, EE.UU., Universal Pictures International Spain ,1983-01-01,25000000,Inglés
+Scarface,1984-03-12,Cines,2h 45min,Drama,Brian De Palma,,4.5,4.5, EE.UU., Universal Pictures International Spain ,1983-01-01,25000000,Español
+Up,2009-07-30,Cines,1h 35min,Aventura,Pete Docter,4.2,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2009-01-01,175000000,Inglés
+Up,2009-07-30,Cines,1h 35min,Aventura,Bob Peterson,4.2,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2009-01-01,175000000,Inglés
+Up,2009-07-30,Cines,1h 35min,Animación,Pete Docter,4.2,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2009-01-01,175000000,Inglés
+Up,2009-07-30,Cines,1h 35min,Animación,Bob Peterson,4.2,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2009-01-01,175000000,Inglés
+Up,2009-07-30,Cines,1h 35min,Familia,Pete Docter,4.2,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2009-01-01,175000000,Inglés
+Up,2009-07-30,Cines,1h 35min,Familia,Bob Peterson,4.2,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2009-01-01,175000000,Inglés
+Jurassic Park,1993-10-01,Cines,2h 02min,Aventura,Steven Spielberg,4.0,4.5,3.5, EE.UU., Universal Pictures International Spain ,1993-01-01,63000000,Inglés
+Jurassic Park,1993-10-01,Cines,2h 02min,Aventura,Steven Spielberg,4.0,4.5,3.5, EE.UU., Universal Pictures International Spain ,1993-01-01,63000000,Español
+Jurassic Park,1993-10-01,Cines,2h 02min,Ciencia ficción,Steven Spielberg,4.0,4.5,3.5, EE.UU., Universal Pictures International Spain ,1993-01-01,63000000,Inglés
+Jurassic Park,1993-10-01,Cines,2h 02min,Ciencia ficción,Steven Spielberg,4.0,4.5,3.5, EE.UU., Universal Pictures International Spain ,1993-01-01,63000000,Español
+Twelve Angry Men,1958-02-03,Cines,1h 35min,Drama,Sidney Lumet,4.8,4.5,, EE.UU.,,1957-01-01,340000,Inglés
+Twelve Angry Men,1958-02-03,Cines,1h 35min,Judicial,Sidney Lumet,4.8,4.5,, EE.UU.,,1957-01-01,340000,Inglés
+Braveheart,1995-10-06,Cines,2h 45min,Biopic,Mel Gibson,4.3,4.5,3.5, EE.UU., Twentieth Century Studios España ,1995-01-01,72000000,Inglés
+Braveheart,1995-10-06,Cines,2h 45min,Drama,Mel Gibson,4.3,4.5,3.5, EE.UU., Twentieth Century Studios España ,1995-01-01,72000000,Inglés
+Braveheart,1995-10-06,Cines,2h 45min,Histórico,Mel Gibson,4.3,4.5,3.5, EE.UU., Twentieth Century Studios España ,1995-01-01,72000000,Inglés
+Once Upon a Time in America,1985-01-25,Cines,3h 49min,Crimen,Sergio Leone,3.8,4.5,, EE.UU., Twentieth Century Studios España ,1984-01-01,30000000,Inglés
+Once Upon a Time in America,1985-01-25,Cines,3h 49min,Drama,Sergio Leone,3.8,4.5,, EE.UU., Twentieth Century Studios España ,1984-01-01,30000000,Inglés
+WALL•E,2008-08-06,Cines,1h 37min,Aventura,Andrew Stanton,4.9,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2008-01-01,180000000,Inglés
+WALL•E,2008-08-06,Cines,1h 37min,Animación,Andrew Stanton,4.9,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2008-01-01,180000000,Inglés
+WALL•E,2008-08-06,Cines,1h 37min,Familia,Andrew Stanton,4.9,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2008-01-01,180000000,Inglés
+WALL•E,2008-08-06,Cines,1h 37min,Ciencia ficción,Andrew Stanton,4.9,4.5,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2008-01-01,180000000,Inglés
+Back to the Future,1985-12-02,Cines,1h 56min,Aventura,Robert Zemeckis,3.9,4.5,3.0, EE.UU., Universal Pictures International Spain ,1985-01-01,19000000,Inglés
+Back to the Future,1985-12-02,Cines,1h 56min,Comedia,Robert Zemeckis,3.9,4.5,3.0, EE.UU., Universal Pictures International Spain ,1985-01-01,19000000,Inglés
+Back to the Future,1985-12-02,Cines,1h 56min,Ciencia ficción,Robert Zemeckis,3.9,4.5,3.0, EE.UU., Universal Pictures International Spain ,1985-01-01,19000000,Inglés
+Kimi no na wa.,2017-04-07,Cines,1h 50min,Animación,Makoto Shinkai,4.1,4.5,, Japón, Selecta Visión ,2016-01-01,0,Inglés
+Kimi no na wa.,2017-04-07,Cines,1h 50min,Fantasía,Makoto Shinkai,4.1,4.5,, Japón, Selecta Visión ,2016-01-01,0,Inglés
+Alien,1979-09-26,Cines,1h 56min,Terror,Ridley Scott,4.8,4.5,5.0, Gran Bretaña, Twentieth Century Studios España ,1979-01-01,11000000,Inglés
+Alien,1979-09-26,Cines,1h 56min,Ciencia ficción,Ridley Scott,4.8,4.5,5.0, Gran Bretaña, Twentieth Century Studios España ,1979-01-01,11000000,Inglés
+The Green Mile,2000-02-18,Cines,3h 09min,Crimen,Frank Darabont,3.6,4.5,2.0, EE.UU., Warner Bros Pictures España ,1999-01-01,60000000,Inglés
+The Green Mile,2000-02-18,Cines,3h 09min,Drama,Frank Darabont,3.6,4.5,2.0, EE.UU., Warner Bros Pictures España ,1999-01-01,60000000,Inglés
+The Green Mile,2000-02-18,Cines,3h 09min,Fantasía,Frank Darabont,3.6,4.5,2.0, EE.UU., Warner Bros Pictures España ,1999-01-01,60000000,Inglés
+Taxi Driver,1977-03-10,Cines,1h 55min,Crimen,Martin Scorsese,4.8,4.5,, EE.UU.,,1976-01-01,1300000,Inglés
+Taxi Driver,1977-03-10,Cines,1h 55min,Drama,Martin Scorsese,4.8,4.5,, EE.UU.,,1976-01-01,1300000,Inglés
+Taxi Driver,1977-03-10,Cines,1h 55min,Suspense,Martin Scorsese,4.8,4.5,, EE.UU.,,1976-01-01,1300000,Inglés
+Gran Torino,2009-03-06,Cines,1h 56min,Drama,Clint Eastwood,4.4,4.5,4.0, EE.UU., Warner Bros Pictures España ,2008-01-01,33000000,Inglés
+The Shining,1980-12-19,Cines,2h 23min,Terror,Stanley Kubrick,3.6,4.5,, Gran Bretaña, Warner Bros Pictures España ,1980-01-01,19000000,Inglés
+The Shining,1980-12-19,Cines,2h 23min,Suspense,Stanley Kubrick,3.6,4.5,, Gran Bretaña, Warner Bros Pictures España ,1980-01-01,19000000,Inglés
+Star Wars: Episode VI - Return of the Jedi,1997-04-25,Cines,2h 13min,Aventura,Richard Marquand,2.7,4.5,, EE.UU., Twentieth Century Studios España ,1983-01-01,32500000,Inglés
+Star Wars: Episode VI - Return of the Jedi,1997-04-25,Cines,2h 13min,Ciencia ficción,Richard Marquand,2.7,4.5,, EE.UU., Twentieth Century Studios España ,1983-01-01,32500000,Inglés
+The Pursuit of Happyness,2007-02-02,Cines,1h 58min,Biopic,Gabriele Muccino,3.2,4.4,2.5, EE.UU., Sony Pictures Releasing de España ,2006-01-01,55000000,Inglés
+The Pursuit of Happyness,2007-02-02,Cines,1h 58min,Drama,Gabriele Muccino,3.2,4.4,2.5, EE.UU., Sony Pictures Releasing de España ,2006-01-01,55000000,Inglés
+The Apartment,1962-12-19,Cines,2h 05min,Comedia dramática,Billy Wilder,4.5,4.4,, EE.UU.,,1960-01-01,3000000,Inglés
+The Apartment,1962-12-19,Cines,2h 05min,Romántico,Billy Wilder,4.5,4.4,, EE.UU.,,1960-01-01,3000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Animación,Pete Docter,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Animación,David Silverman,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Animación,Lee Unkrich,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Comedia,Pete Docter,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Comedia,David Silverman,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Comedia,Lee Unkrich,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Familia,Pete Docter,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Familia,David Silverman,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+"Monsters, Inc.",2002-02-08,Cines,1h 32min,Familia,Lee Unkrich,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2001-01-01,115000000,Inglés
+Toy Story 3,2010-07-23,Cines,1h 40min,Aventura,Lee Unkrich,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,200000000,Inglés
+Toy Story 3,2010-07-23,Cines,1h 40min,Animación,Lee Unkrich,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,200000000,Inglés
+Toy Story 3,2010-07-23,Cines,1h 40min,Comedia,Lee Unkrich,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,200000000,Inglés
+Toy Story 3,2010-07-23,Cines,1h 40min,Fantasía,Lee Unkrich,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,200000000,Inglés
+Million Dollar Baby,2005-02-04,Cines,2h 12min,Drama,Clint Eastwood,4.7,4.4,3.0, EE.UU., Warner Bros Pictures España ,2004-01-01,30000000,Inglés
+"Il Buono, il brutto, il cattivo",1968-08-07,Cines,3h 00min,Western,Sergio Leone,4.1,4.4,, España,,1966-01-01,1200000,Inglés
+Gone with the Wind,1950-11-17,Cines,3h 58min,Drama,Victor Fleming,4.9,4.4,, EE.UU.,,1939-01-01,3900000,Inglés
+Gone with the Wind,1950-11-17,Cines,3h 58min,Drama,George Cukor,4.9,4.4,, EE.UU.,,1939-01-01,3900000,Inglés
+Gone with the Wind,1950-11-17,Cines,3h 58min,Drama,Sam Wood,4.9,4.4,, EE.UU.,,1939-01-01,3900000,Inglés
+Gone with the Wind,1950-11-17,Cines,3h 58min,Romántico,Victor Fleming,4.9,4.4,, EE.UU.,,1939-01-01,3900000,Inglés
+Gone with the Wind,1950-11-17,Cines,3h 58min,Romántico,George Cukor,4.9,4.4,, EE.UU.,,1939-01-01,3900000,Inglés
+Gone with the Wind,1950-11-17,Cines,3h 58min,Romántico,Sam Wood,4.9,4.4,, EE.UU.,,1939-01-01,3900000,Inglés
+The Dark Knight Rises,2012-07-20,Cines,2h 44min,Acción,Christopher Nolan,4.1,4.4,4.0, EE.UU., Warner Bros Pictures España ,2012-01-01,250000000,Inglés
+The Dark Knight Rises,2012-07-20,Cines,2h 44min,Suspense,Christopher Nolan,4.1,4.4,4.0, EE.UU., Warner Bros Pictures España ,2012-01-01,250000000,Inglés
+The Exorcist,1975-09-01,Cines,2h 01min,Terror,William Friedkin,4.0,4.4,, EE.UU., Warner Bros Pictures España ,1973-01-01,13000000,Inglés
+Indiana Jones and the Last Crusade,1989-09-01,Cines,2h 07min,Acción,Steven Spielberg,4.6,4.4,, EE.UU., Universal Pictures International Spain ,1989-01-01,48000000,Inglés
+Indiana Jones and the Last Crusade,1989-09-01,Cines,2h 07min,Aventura,Steven Spielberg,4.6,4.4,, EE.UU., Universal Pictures International Spain ,1989-01-01,48000000,Inglés
+Rear Window,1955-10-03,Cines,1h 50min,Crimen,Alfred Hitchcock,4.9,4.4,5.0, EE.UU.,,1954-01-01,2000000,Inglés
+Rear Window,1955-10-03,Cines,1h 50min,Suspense,Alfred Hitchcock,4.9,4.4,5.0, EE.UU.,,1954-01-01,2000000,Inglés
+Finding Nemo,2003-11-28,Cines,1h 41min,Aventura,Andrew Stanton,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,94000000,Inglés
+Finding Nemo,2003-11-28,Cines,1h 41min,Aventura,Lee Unkrich,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,94000000,Inglés
+Finding Nemo,2003-11-28,Cines,1h 41min,Animación,Andrew Stanton,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,94000000,Inglés
+Finding Nemo,2003-11-28,Cines,1h 41min,Animación,Lee Unkrich,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,94000000,Inglés
+Finding Nemo,2003-11-28,Cines,1h 41min,Familia,Andrew Stanton,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,94000000,Inglés
+Finding Nemo,2003-11-28,Cines,1h 41min,Familia,Lee Unkrich,4.8,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,94000000,Inglés
+The Nightmare Before Christmas,1994-12-02,Cines,1h 15min,Animación,Henry Selick,4.0,4.4,4.5, EE.UU., Lauren Film ,1993-01-01,18000000,Inglés
+The Nightmare Before Christmas,1994-12-02,Cines,1h 15min,Fantasía,Henry Selick,4.0,4.4,4.5, EE.UU., Lauren Film ,1993-01-01,18000000,Inglés
+The Nightmare Before Christmas,1994-12-02,Cines,1h 15min,Comedia musical,Henry Selick,4.0,4.4,4.5, EE.UU., Lauren Film ,1993-01-01,18000000,Inglés
+Hachi: A Dog's Tale,2009-11-06,Cines,1h 33min,Drama,Lasse Hallström,2.0,4.4,1.0, EE.UU., Wide Pictures ,2009-01-01,16000000,Inglés
+Hachi: A Dog's Tale,2009-11-06,Cines,1h 33min,Familia,Lasse Hallström,2.0,4.4,1.0, EE.UU., Wide Pictures ,2009-01-01,16000000,Inglés
+Joker,2019-10-04,Cines,2h 02min,Drama,Todd Phillips,3.9,4.4,4.5, EE.UU., Warner Bros Pictures España ,2019-01-01,0,Inglés
+Bohemian Rhapsody,2018-10-31,Cines,2h 15min,Biopic,Bryan Singer,3.0,4.4,, EE.UU., Twentieth Century Studios España ,2018-01-01,0,Inglés
+Bohemian Rhapsody,2018-10-31,Cines,2h 15min,Drama,Bryan Singer,3.0,4.4,, EE.UU., Twentieth Century Studios España ,2018-01-01,0,Inglés
+Nuovo cinema Paradiso,1989-12-15,Cines,1h 58min,Comedia dramática,Giuseppe Tornatore,4.4,4.4,4.0, Italia, A Contracorriente Films ,1988-01-01,5000000,Inglés
+Nuovo cinema Paradiso,1989-12-15,Cines,1h 58min,Comedia dramática,Giuseppe Tornatore,4.4,4.4,4.0, Italia, A Contracorriente Films ,1988-01-01,5000000,Italiano
+Nuovo cinema Paradiso,1989-12-15,Cines,1h 58min,Comedia dramática,Giuseppe Tornatore,4.4,4.4,4.0, Italia, A Contracorriente Films ,1988-01-01,5000000,Portugués
+Casino,1996-02-23,Cines,2h 58min,Crimen,Martin Scorsese,3.9,4.4,5.0, EE.UU., Universal Pictures International Spain ,1995-01-01,52000000,Inglés
+Casino,1996-02-23,Cines,2h 58min,Drama,Martin Scorsese,3.9,4.4,5.0, EE.UU., Universal Pictures International Spain ,1995-01-01,52000000,Inglés
+Ben-Hur,1960-12-23,Cines,3h 32min,Aventura,William Wyler,4.3,4.4,, EE.UU., Warner Bros Pictures España ,1959-01-01,15900000,Inglés
+Ben-Hur,1960-12-23,Cines,3h 32min,Drama,William Wyler,4.3,4.4,, EE.UU., Warner Bros Pictures España ,1959-01-01,15900000,Inglés
+Ben-Hur,1960-12-23,Cines,3h 32min,Histórico,William Wyler,4.3,4.4,, EE.UU., Warner Bros Pictures España ,1959-01-01,15900000,Inglés
+Ben-Hur,1960-12-23,Cines,3h 32min,Épico,William Wyler,4.3,4.4,, EE.UU., Warner Bros Pictures España ,1959-01-01,15900000,Inglés
+American History X,1999-03-18,Cines,1h 59min,Crimen,Tony Kaye,3.9,4.4,3.0, EE.UU., Aurum ,1998-01-01,10000000,Inglés
+American History X,1999-03-18,Cines,1h 59min,Drama,Tony Kaye,3.9,4.4,3.0, EE.UU., Aurum ,1998-01-01,10000000,Inglés
+Terminator 2: Judgement Day,1991-12-04,Cines,2h 17min,Acción,James Cameron,4.0,4.4,4.5, EE.UU., 39 Escalones ,1991-01-01,94000000,Inglés
+Terminator 2: Judgement Day,1991-12-04,Cines,2h 17min,Acción,James Cameron,4.0,4.4,4.5, EE.UU., 39 Escalones ,1991-01-01,94000000,Español
+Terminator 2: Judgement Day,1991-12-04,Cines,2h 17min,Ciencia ficción,James Cameron,4.0,4.4,4.5, EE.UU., 39 Escalones ,1991-01-01,94000000,Inglés
+Terminator 2: Judgement Day,1991-12-04,Cines,2h 17min,Ciencia ficción,James Cameron,4.0,4.4,4.5, EE.UU., 39 Escalones ,1991-01-01,94000000,Español
+Inception,2010-08-06,Cines,2h 28min,Ciencia ficción,Christopher Nolan,3.9,4.4,3.5, EE.UU., Warner Bros Pictures España ,2010-01-01,160000000,Inglés
+Inception,2010-08-06,Cines,2h 28min,Ciencia ficción,Christopher Nolan,3.9,4.4,3.5, EE.UU., Warner Bros Pictures España ,2010-01-01,160000000,Japonés
+Inception,2010-08-06,Cines,2h 28min,Suspense,Christopher Nolan,3.9,4.4,3.5, EE.UU., Warner Bros Pictures España ,2010-01-01,160000000,Inglés
+Inception,2010-08-06,Cines,2h 28min,Suspense,Christopher Nolan,3.9,4.4,3.5, EE.UU., Warner Bros Pictures España ,2010-01-01,160000000,Japonés
+The Great Dictator,1976-04-30,Cines,2h 05min,Comedia,Charles Chaplin,4.7,4.4,, EE.UU., Filmayer ,1940-01-01,2000000,Inglés
+Psycho,1961-04-02,Cines,1h 49min,Terror,Alfred Hitchcock,3.8,4.4,5.0, EE.UU., Paramount Pictures Spain ,1960-01-01,800000,Inglés
+Psycho,1961-04-02,Cines,1h 49min,Suspense,Alfred Hitchcock,3.8,4.4,5.0, EE.UU., Paramount Pictures Spain ,1960-01-01,800000,Inglés
+Ratatouille,2007-08-03,Cines,1h 50min,Animación,Brad Bird,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2007-01-01,150000000,Inglés
+Ratatouille,2007-08-03,Cines,1h 50min,Comedia,Brad Bird,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2007-01-01,150000000,Inglés
+Ratatouille,2007-08-03,Cines,1h 50min,Familia,Brad Bird,4.4,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2007-01-01,150000000,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Acción,Bob Persichetti,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Acción,Peter Ramsey,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Acción,Rodney Rothman,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Animación,Bob Persichetti,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Animación,Peter Ramsey,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Animación,Rodney Rothman,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Familia,Bob Persichetti,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Familia,Peter Ramsey,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Spider-Man: Into the Spider-Verse,2018-12-21,Cines,1h 57min,Familia,Rodney Rothman,4.1,4.4,4.5, EE.UU., Sony Pictures Releasing de España ,2018-01-01,0,Inglés
+Interstellar,2014-11-07,Cines,2h 49min,Drama,Christopher Nolan,4.3,4.4,4.0, EE.UU., Warner Bros Pictures España ,2014-01-01,0,Inglés
+Interstellar,2014-11-07,Cines,2h 49min,Ciencia ficción,Christopher Nolan,4.3,4.4,4.0, EE.UU., Warner Bros Pictures España ,2014-01-01,0,Inglés
+Harry Potter and the Prisoner of Azkaban,2004-06-18,Cines,2h 21min,Aventura,Alfonso Cuarón,4.1,4.4,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,130000000,Inglés
+Harry Potter and the Prisoner of Azkaban,2004-06-18,Cines,2h 21min,Fantasía,Alfonso Cuarón,4.1,4.4,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,130000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Animación,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Animación,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Animación,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Animación,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Animación,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Animación,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Familia,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Familia,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Familia,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Familia,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Familia,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Familia,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Comedia musical,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Comedia musical,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Comedia musical,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Comedia musical,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Comedia musical,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Comedia musical,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Romántico,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Romántico,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Romántico,Gary Trousdale,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Romántico,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Inglés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Romántico,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Francés
+Beauty and the Beast,1992-11-27,Cines,1h 27min,Romántico,Kirk Wise,4.5,4.4,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,1991-01-01,25000000,Alemán
+Harry Potter and the Philosopher's Stone,2001-11-30,Cines,2h 32min,Aventura,Chris Columbus,,4.4,4.5, EE.UU., Warner Bros Pictures España ,2001-01-01,125000000,Inglés
+Harry Potter and the Philosopher's Stone,2001-11-30,Cines,2h 32min,Familia,Chris Columbus,,4.4,4.5, EE.UU., Warner Bros Pictures España ,2001-01-01,125000000,Inglés
+Harry Potter and the Philosopher's Stone,2001-11-30,Cines,2h 32min,Fantasía,Chris Columbus,,4.4,4.5, EE.UU., Warner Bros Pictures España ,2001-01-01,125000000,Inglés
+The Sixth Sense,2000-01-14,Cines,1h 47min,Drama,M. Night Shyamalan,3.6,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1999-01-01,55000000,Inglés
+The Sixth Sense,2000-01-14,Cines,1h 47min,Suspense,M. Night Shyamalan,3.6,4.4,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,1999-01-01,55000000,Inglés
+Apocalypse Now,1979-01-01,Cines,3h 02min,Drama,Francis Ford Coppola,4.9,4.4,5.0, EE.UU.,,1979-01-01,31500000,Inglés
+Apocalypse Now,1979-01-01,Cines,3h 02min,Guerra,Francis Ford Coppola,4.9,4.4,5.0, EE.UU.,,1979-01-01,31500000,Inglés
+Blade Runner,1983-01-14,Cines,1h 57min,Ciencia ficción,Ridley Scott,4.2,4.4,4.5, EE.UU., Warner Bros Pictures España ,1982-01-01,28000000,Inglés
+Pride and Prejudice,2006-02-10,Cines,2h 09min,Comedia,Joe Wright,4.5,4.4,4.0, EE.UU., Universal Pictures International Spain ,2005-01-01,0,Inglés
+Pride and Prejudice,2006-02-10,Cines,2h 09min,Romántico,Joe Wright,4.5,4.4,4.0, EE.UU., Universal Pictures International Spain ,2005-01-01,0,Inglés
+Django Unchained,2013-01-18,Cines,2h 44min,Western,Quentin Tarantino,4.0,4.4,4.0, EE.UU., Sony Pictures Releasing de España ,2012-01-01,100000000,Inglés
+Harry Potter and the Deathly Hallows - Part 2,2011-07-15,Cines,2h 10min,Aventura,David Yates,3.6,4.4,3.0, EE.UU., Warner Bros Pictures España ,2011-01-01,125000000,Inglés
+Harry Potter and the Deathly Hallows - Part 2,2011-07-15,Cines,2h 10min,Fantasía,David Yates,3.6,4.4,3.0, EE.UU., Warner Bros Pictures España ,2011-01-01,125000000,Inglés
+The Passion of The Christ,2004-04-02,Cines,2h 07min,Biopic,Mel Gibson,,4.4,1.0, EE.UU., Aurum ,2004-01-01,30000000,Inglés
+The Passion of The Christ,2004-04-02,Cines,2h 07min,Drama,Mel Gibson,,4.4,1.0, EE.UU., Aurum ,2004-01-01,30000000,Inglés
+The Passion of The Christ,2004-04-02,Cines,2h 07min,Histórico,Mel Gibson,,4.4,1.0, EE.UU., Aurum ,2004-01-01,30000000,Inglés
+2001: A Space Odyssey,1968-10-17,Cines,2h 21min,Ciencia ficción,Stanley Kubrick,4.8,4.4,4.0, EE.UU., Warner Bros Pictures España ,1968-01-01,10500000,Inglés
+Rocky,1977-10-03,Cines,1h 59min,Drama,John G. Avildsen,3.7,4.4,, EE.UU., United Artists ,1976-01-01,1000000,Inglés
+Rocky,1977-10-03,Cines,1h 59min,Evento deportivo,John G. Avildsen,3.7,4.4,, EE.UU., United Artists ,1976-01-01,1000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Animación,Andrew Adamson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Animación,Vicky Jenson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Comedia,Andrew Adamson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Comedia,Vicky Jenson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Familia,Andrew Adamson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Familia,Vicky Jenson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Fantasía,Andrew Adamson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Shrek,2001-07-13,Cines,1h 29min,Fantasía,Vicky Jenson,4.1,4.4,4.0, EE.UU., Universal Pictures International Spain ,2001-01-01,60000000,Inglés
+Jaws,1975-12-19,Cines,2h 04min,Acción,Steven Spielberg,4.5,4.4,, EE.UU., Universal Pictures International Spain ,1975-01-01,12000000,Inglés
+Jaws,1975-12-19,Cines,2h 04min,Suspense,Steven Spielberg,4.5,4.4,, EE.UU., Universal Pictures International Spain ,1975-01-01,12000000,Inglés
+One Flew Over the Cuckoo's Nest,1976-10-07,Cines,2h 09min,Drama,Milos Forman,4.2,4.4,, EE.UU.,,1975-01-01,4000000,Inglés
+Cidade de Deus,2003-01-31,Cines,2h 15min,Crimen,Kátia Lund,3.9,4.4,4.0, Brasil, Vértigo Films España ,2002-01-01,3300000,Portugués
+Cidade de Deus,2003-01-31,Cines,2h 15min,Crimen,Fernando Meirelles,3.9,4.4,4.0, Brasil, Vértigo Films España ,2002-01-01,3300000,Portugués
+Cidade de Deus,2003-01-31,Cines,2h 15min,Drama,Kátia Lund,3.9,4.4,4.0, Brasil, Vértigo Films España ,2002-01-01,3300000,Portugués
+Cidade de Deus,2003-01-31,Cines,2h 15min,Drama,Fernando Meirelles,3.9,4.4,4.0, Brasil, Vértigo Films España ,2002-01-01,3300000,Portugués
+Hacksaw Ridge,2016-12-07,Cines,2h 20min,Biopic,Mel Gibson,3.3,4.4,4.0, Australia, DeaPlaneta ,2016-01-01,40000000,Inglés
+Hacksaw Ridge,2016-12-07,Cines,2h 20min,Drama,Mel Gibson,3.3,4.4,4.0, Australia, DeaPlaneta ,2016-01-01,40000000,Inglés
+Hacksaw Ridge,2016-12-07,Cines,2h 20min,Guerra,Mel Gibson,3.3,4.4,4.0, Australia, DeaPlaneta ,2016-01-01,40000000,Inglés
+Inside Out,2015-07-17,Cines,1h 35min,Animación,Pete Docter,4.6,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2015-01-01,0,Inglés
+Inside Out,2015-07-17,Cines,1h 35min,Comedia,Pete Docter,4.6,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2015-01-01,0,Inglés
+Inside Out,2015-07-17,Cines,1h 35min,Familia,Pete Docter,4.6,4.4,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2015-01-01,0,Inglés
+Good Will Hunting,1998-03-06,Cines,2h 06min,Drama,Gus Van Sant,3.6,4.4,3.5, EE.UU., Lauren Film ,1997-01-01,10000000,Inglés
+E.T. The Extra-Terrestrial,1982-12-10,Cines,2h 00min,Aventura,Steven Spielberg,4.1,4.4,, EE.UU., Universal Pictures International Spain ,1982-01-01,10500000,Inglés
+E.T. The Extra-Terrestrial,1982-12-10,Cines,2h 00min,Familia,Steven Spielberg,4.1,4.4,, EE.UU., Universal Pictures International Spain ,1982-01-01,10500000,Inglés
+E.T. The Extra-Terrestrial,1982-12-10,Cines,2h 00min,Ciencia ficción,Steven Spielberg,4.1,4.4,, EE.UU., Universal Pictures International Spain ,1982-01-01,10500000,Inglés
+The Departed,2006-10-27,Cines,2h 30min,Crimen,Martin Scorsese,4.7,4.4,2.5, EE.UU., Warner Bros Pictures España ,2006-01-01,90000000,Inglés
+The Departed,2006-10-27,Cines,2h 30min,Drama,Martin Scorsese,4.7,4.4,2.5, EE.UU., Warner Bros Pictures España ,2006-01-01,90000000,Inglés
+The Departed,2006-10-27,Cines,2h 30min,Suspense,Martin Scorsese,4.7,4.4,2.5, EE.UU., Warner Bros Pictures España ,2006-01-01,90000000,Inglés
+Edward Scissorhands,1991-04-12,Cines,1h 45min,Drama,Tim Burton,4.0,4.4,4.0, EE.UU., Twentieth Century Studios España ,1990-01-01,0,Inglés
+Edward Scissorhands,1991-04-12,Cines,1h 45min,Fantasía,Tim Burton,4.0,4.4,4.0, EE.UU., Twentieth Century Studios España ,1990-01-01,0,Inglés
+Edward Scissorhands,1991-04-12,Cines,1h 45min,Romántico,Tim Burton,4.0,4.4,4.0, EE.UU., Twentieth Century Studios España ,1990-01-01,0,Inglés
+The Goonies,1985-07-24,Cines,1h 54min,Aventura,Richard Donner,3.6,4.4,, EE.UU., Warner Bros Pictures España ,1985-01-01,19000000,Inglés
+The Goonies,1985-07-24,Cines,1h 54min,Comedia,Richard Donner,3.6,4.4,, EE.UU., Warner Bros Pictures España ,1985-01-01,19000000,Inglés
+The Goonies,1985-07-24,Cines,1h 54min,Familia,Richard Donner,3.6,4.4,, EE.UU., Warner Bros Pictures España ,1985-01-01,19000000,Inglés
+The Goonies,1985-07-24,Cines,1h 54min,Fantasía,Richard Donner,3.6,4.4,, EE.UU., Warner Bros Pictures España ,1985-01-01,19000000,Inglés
+Full Metal Jacket,1989-01-02,Cines,1h 56min,Drama,Stanley Kubrick,4.4,4.4,, EE.UU.,,1987-01-01,19000000,Inglés
+Full Metal Jacket,1989-01-02,Cines,1h 56min,Guerra,Stanley Kubrick,4.4,4.4,, EE.UU.,,1987-01-01,19000000,Inglés
+Gisaengchung,2019-10-25,Cines,2h 12min,Drama,Bong Joon Ho,4.3,4.4,5.0, Corea del Sur, La Aventura Audiovisual ,2019-01-01,0,Inglés
+Gisaengchung,2019-10-25,Cines,2h 12min,Suspense,Bong Joon Ho,4.3,4.4,5.0, Corea del Sur, La Aventura Audiovisual ,2019-01-01,0,Inglés
+Spider-Man: No Way Home,2021-12-16,Cines,2h 28min,Acción,Jon Watts,4.0,4.4,4.0, EE.UU., Sony Pictures Releasing de España ,2021-01-01,0,Inglés
+Spider-Man: No Way Home,2021-12-16,Cines,2h 28min,Aventura,Jon Watts,4.0,4.4,4.0, EE.UU., Sony Pictures Releasing de España ,2021-01-01,0,Inglés
+Spider-Man: No Way Home,2021-12-16,Cines,2h 28min,Fantasía,Jon Watts,4.0,4.4,4.0, EE.UU., Sony Pictures Releasing de España ,2021-01-01,0,Inglés
+The Help,2011-10-28,Cines,2h 26min,Drama,Tate Taylor,3.5,4.4,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2011-01-01,25000000,Inglés
+Reservoir Dogs,1992-10-16,Cines,1h 39min,Crimen,Quentin Tarantino,4.6,4.4,5.0, EE.UU., 39 Escalones ,1992-01-01,1200000,Inglés
+Reservoir Dogs,1992-10-16,Cines,1h 39min,Suspense,Quentin Tarantino,4.6,4.4,5.0, EE.UU., 39 Escalones ,1992-01-01,1200000,Inglés
+The Boy in the Striped Pyjamas,2008-09-26,Cines,1h 30min,Drama,Mark Herman,3.5,4.4,, EE.UU., Walt Disney Studios Motion Picture Spain ,2008-01-01,5000000,Inglés
+The Boy in the Striped Pyjamas,2008-09-26,Cines,1h 30min,Guerra,Mark Herman,3.5,4.4,, EE.UU., Walt Disney Studios Motion Picture Spain ,2008-01-01,5000000,Inglés
+Mononoke-Hime,2000-04-07,Cines,2h 15min,Aventura,Hayao Miyazaki,4.3,4.4,5.0, Japón, Vértigo Films España ,1997-01-01,4000000,Japonés
+Mononoke-Hime,2000-04-07,Cines,2h 15min,Animación,Hayao Miyazaki,4.3,4.4,5.0, Japón, Vértigo Films España ,1997-01-01,4000000,Japonés
+Mononoke-Hime,2000-04-07,Cines,2h 15min,Fantasía,Hayao Miyazaki,4.3,4.4,5.0, Japón, Vértigo Films España ,1997-01-01,4000000,Japonés
+Inglourious Basterds,2009-08-21,Cines,2h 33min,Acción,Quentin Tarantino,4.5,4.4,3.0, EE.UU., Universal Pictures International Spain ,2009-01-01,70000000,Inglés
+Inglourious Basterds,2009-08-21,Cines,2h 33min,Guerra,Quentin Tarantino,4.5,4.4,3.0, EE.UU., Universal Pictures International Spain ,2009-01-01,70000000,Inglés
+Raging Bull,1981-03-20,Cines,2h 09min,Biopic,Martin Scorsese,4.6,4.4,, EE.UU., Lost & Found ,1980-01-01,18000000,Inglés
+Raging Bull,1981-03-20,Cines,2h 09min,Drama,Martin Scorsese,4.6,4.4,, EE.UU., Lost & Found ,1980-01-01,18000000,Inglés
+Raging Bull,1981-03-20,Cines,2h 09min,Evento deportivo,Martin Scorsese,4.6,4.4,, EE.UU., Lost & Found ,1980-01-01,18000000,Inglés
+Titanic,1998-01-09,Cines,3h 14min,Drama,James Cameron,4.3,4.4,2.5, EE.UU., Twentieth Century Studios España ,1997-01-01,200000000,Inglés
+Titanic,1998-01-09,Cines,3h 14min,Romántico,James Cameron,4.3,4.4,2.5, EE.UU., Twentieth Century Studios España ,1997-01-01,200000000,Inglés
+A Clockwork Orange,1975-06-16,Cines,2h 16min,Drama,Stanley Kubrick,3.7,4.3,, Gran Bretaña, Warner Bros Pictures España ,1971-01-01,2200000,Inglés
+A Clockwork Orange,1975-06-16,Cines,2h 16min,Ciencia ficción,Stanley Kubrick,3.7,4.3,, Gran Bretaña, Warner Bros Pictures España ,1971-01-01,2200000,Inglés
+A Dog's Purpose,2017-10-06,Cines,1h 41min,Comedia dramática,Lasse Hallström,2.3,4.3,4.0, EE.UU., Tripictures ,2017-01-01,0,Inglés
+A Dog's Purpose,2017-10-06,Cines,1h 41min,Familia,Lasse Hallström,2.3,4.3,4.0, EE.UU., Tripictures ,2017-01-01,0,Inglés
+The Sting,1974-04-14,Cines,2h 09min,Comedia,George Roy Hill,4.4,4.3,, EE.UU.,,1973-01-01,5500000,Inglés
+The Sting,1974-04-14,Cines,2h 09min,Crimen,George Roy Hill,4.4,4.3,, EE.UU.,,1973-01-01,5500000,Inglés
+Dead Poets Society,1989-11-24,Cines,2h 08min,Comedia,Peter Weir,4.0,4.3,2.0, EE.UU., Warner Bros Pictures España ,1989-01-01,16400000,Inglés
+Dead Poets Society,1989-11-24,Cines,2h 08min,Comedia dramática,Peter Weir,4.0,4.3,2.0, EE.UU., Warner Bros Pictures España ,1989-01-01,16400000,Inglés
+Dead Poets Society,1989-11-24,Cines,2h 08min,Drama,Peter Weir,4.0,4.3,2.0, EE.UU., Warner Bros Pictures España ,1989-01-01,16400000,Inglés
+Unforgiven,1992-09-25,Cines,2h 11min,Drama,Clint Eastwood,4.2,4.3,4.5, EE.UU., Warner Bros Pictures España ,1992-01-01,14400000,Inglés
+Unforgiven,1992-09-25,Cines,2h 11min,Western,Clint Eastwood,4.2,4.3,4.5, EE.UU., Warner Bros Pictures España ,1992-01-01,14400000,Inglés
+Pirates of the Caribbean: The Curse of the Black Pearl,2003-08-12,Cines,2h 23min,Acción,Gore Verbinski,4.2,4.3,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,0,Inglés
+Pirates of the Caribbean: The Curse of the Black Pearl,2003-08-12,Cines,2h 23min,Aventura,Gore Verbinski,4.2,4.3,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,0,Inglés
+Pirates of the Caribbean: The Curse of the Black Pearl,2003-08-12,Cines,2h 23min,Fantasía,Gore Verbinski,4.2,4.3,2.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2003-01-01,0,Inglés
+Men of Honor,2001-04-20,Cines,2h 09min,Biopic,George Tillman Jr.,3.5,4.3,2.0, EE.UU., Twentieth Century Studios España ,2000-01-01,32000000,Inglés
+Men of Honor,2001-04-20,Cines,2h 09min,Drama,George Tillman Jr.,3.5,4.3,2.0, EE.UU., Twentieth Century Studios España ,2000-01-01,32000000,Inglés
+Citizen Kane,1966-02-21,Cines,1h 59min,Drama,Orson Welles,5.0,4.3,, EE.UU.,,1941-01-01,686033,Inglés
+Harry Potter and the Goblet of Fire,2005-11-25,Cines,2h 37min,Fantasía,Mike Newell,4.2,4.3,3.0, EE.UU., Warner Bros Pictures España ,2005-01-01,150000000,Inglés
+Vertigo,1958-07-22,Cines,2h 09min,Drama,Alfred Hitchcock,4.8,4.3,, EE.UU.,,1958-01-01,2479000,Inglés
+Vertigo,1958-07-22,Cines,2h 09min,Suspense,Alfred Hitchcock,4.8,4.3,, EE.UU.,,1958-01-01,2479000,Inglés
+Tonari no Totoro,2009-10-30,Cines,1h 27min,Animación,Hayao Miyazaki,4.4,4.3,4.0, Japón, Vértigo Films España ,1988-01-01,0,Japonés
+1917,2020-01-10,Cines,1h 59min,Drama,Sam Mendes,4.2,4.3,4.5, Gran Bretaña, Entertainment One Films Spain ,2019-01-01,0,Inglés
+1917,2020-01-10,Cines,1h 59min,Guerra,Sam Mendes,4.2,4.3,4.5, Gran Bretaña, Entertainment One Films Spain ,2019-01-01,0,Inglés
+Ice Age,2002-07-12,Cines,1h 21min,Animación,Chris Wedge,,4.3,3.0, EE.UU., Twentieth Century Studios España ,2002-01-01,60000000,Inglés
+Ice Age,2002-07-12,Cines,1h 21min,Animación,Carlos Saldanha,,4.3,3.0, EE.UU., Twentieth Century Studios España ,2002-01-01,60000000,Inglés
+Ice Age,2002-07-12,Cines,1h 21min,Comedia,Chris Wedge,,4.3,3.0, EE.UU., Twentieth Century Studios España ,2002-01-01,60000000,Inglés
+Ice Age,2002-07-12,Cines,1h 21min,Comedia,Carlos Saldanha,,4.3,3.0, EE.UU., Twentieth Century Studios España ,2002-01-01,60000000,Inglés
+Modern Times,2003-08-29,Cines,1h 27min,Comedia,Charles Chaplin,4.6,4.3,5.0, EE.UU., Manga Films S.L. ,1936-01-01,1500000,Inglés
+Modern Times,2003-08-29,Cines,1h 27min,Comedia dramática,Charles Chaplin,4.6,4.3,5.0, EE.UU., Manga Films S.L. ,1936-01-01,1500000,Inglés
+Modern Times,2003-08-29,Cines,1h 27min,Drama,Charles Chaplin,4.6,4.3,5.0, EE.UU., Manga Films S.L. ,1936-01-01,1500000,Inglés
+Modern Times,2003-08-29,Cines,1h 27min,Romántico,Charles Chaplin,4.6,4.3,5.0, EE.UU., Manga Films S.L. ,1936-01-01,1500000,Inglés
+Big Fish,2004-03-05,Cines,2h 05min,Comedia dramática,Tim Burton,3.6,4.3,3.5, EE.UU., Columbia TriStar Films de Espana S.A. ,2003-01-01,70000000,Inglés
+Big Fish,2004-03-05,Cines,2h 05min,Fantasía,Tim Burton,3.6,4.3,3.5, EE.UU., Columbia TriStar Films de Espana S.A. ,2003-01-01,70000000,Inglés
+Lawrence of Arabia,1965-01-01,Cines,3h 36min,Aventura,David Lean,4.5,4.3,, Gran Bretaña,,1962-01-01,15000000,Inglés
+Lawrence of Arabia,1965-01-01,Cines,3h 36min,Biopic,David Lean,4.5,4.3,, Gran Bretaña,,1962-01-01,15000000,Inglés
+Cast Away,2001-01-19,Cines,2h 23min,Aventura,Robert Zemeckis,4.3,4.3,3.5, EE.UU., Universal Pictures International Spain ,2000-01-01,90000000,Inglés
+Cast Away,2001-01-19,Cines,2h 23min,Drama,Robert Zemeckis,4.3,4.3,3.5, EE.UU., Universal Pictures International Spain ,2000-01-01,90000000,Inglés
+The Incredibles,2004-11-26,Cines,2h 03min,Acción,Brad Bird,4.3,4.3,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2004-01-01,92000000,Inglés
+The Incredibles,2004-11-26,Cines,2h 03min,Aventura,Brad Bird,4.3,4.3,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2004-01-01,92000000,Inglés
+The Incredibles,2004-11-26,Cines,2h 03min,Animación,Brad Bird,4.3,4.3,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2004-01-01,92000000,Inglés
+The Incredibles,2004-11-26,Cines,2h 03min,Comedia,Brad Bird,4.3,4.3,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2004-01-01,92000000,Inglés
+The Incredibles,2004-11-26,Cines,2h 03min,Familia,Brad Bird,4.3,4.3,5.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2004-01-01,92000000,Inglés
+The Avengers,2012-04-27,Cines,2h 23min,Acción,Joss Whedon,4.1,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2012-01-01,220000000,Inglés
+The Avengers,2012-04-27,Cines,2h 23min,Aventura,Joss Whedon,4.1,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2012-01-01,220000000,Inglés
+The Avengers,2012-04-27,Cines,2h 23min,Ciencia ficción,Joss Whedon,4.1,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2012-01-01,220000000,Inglés
+Logan,2017-03-03,Cines,2h 17min,Acción,James Mangold,3.5,4.3,4.0, EE.UU., Twentieth Century Studios España ,2017-01-01,127000000,Inglés
+Logan,2017-03-03,Cines,2h 17min,Ciencia ficción,James Mangold,3.5,4.3,4.0, EE.UU., Twentieth Century Studios España ,2017-01-01,127000000,Inglés
+Home Alone,1990-12-21,Cines,1h 43min,Aventura,Chris Columbus,3.2,4.3,4.0, EE.UU., Twentieth Century Studios España ,1990-01-01,15000000,Inglés
+Home Alone,1990-12-21,Cines,1h 43min,Comedia,Chris Columbus,3.2,4.3,4.0, EE.UU., Twentieth Century Studios España ,1990-01-01,15000000,Inglés
+The Untouchables,1987-10-02,Cines,1h 59min,Crimen,Brian De Palma,4.0,4.3,, EE.UU., Universal Pictures International Spain ,1987-01-01,25000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Acción,Don Hall,3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Acción,Chris Williams (II),3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Aventura,Don Hall,3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Aventura,Chris Williams (II),3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Animación,Don Hall,3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Animación,Chris Williams (II),3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Comedia,Don Hall,3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Comedia,Chris Williams (II),3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Familia,Don Hall,3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+Big Hero 6,2014-12-19,Cines,1h 42min,Familia,Chris Williams (II),3.9,4.3,4.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,165000000,Inglés
+John Wick: Chapter 3 - Parabellum,2019-05-31,Cines,2h 12min,Acción,Chad Stahelski,4.0,4.3,3.5, EE.UU., Entertainment One Films Spain ,2019-01-01,0,Inglés
+Batman Begins,2005-06-17,Cines,2h 20min,Acción,Christopher Nolan,4.8,4.3,3.0, EE.UU., Warner Bros Pictures España ,2005-01-01,150000000,Inglés
+Batman Begins,2005-06-17,Cines,2h 20min,Suspense,Christopher Nolan,4.8,4.3,3.0, EE.UU., Warner Bros Pictures España ,2005-01-01,150000000,Inglés
+Indiana Jones and the Temple of Doom,1984-10-05,Cines,1h 58min,Acción,Steven Spielberg,,4.3,, EE.UU., Paramount Pictures Spain ,1984-01-01,28000000,Inglés
+Indiana Jones and the Temple of Doom,1984-10-05,Cines,1h 58min,Aventura,Steven Spielberg,,4.3,, EE.UU., Paramount Pictures Spain ,1984-01-01,28000000,Inglés
+Snatch,2000-11-03,Cines,1h 43min,Comedia,Guy Ritchie,3.1,4.3,3.5, Gran Bretaña, Sony Pictures Releasing de España ,2000-01-01,10000000,Inglés
+Snatch,2000-11-03,Cines,1h 43min,Crimen,Guy Ritchie,3.1,4.3,3.5, Gran Bretaña, Sony Pictures Releasing de España ,2000-01-01,10000000,Inglés
+Raiders of the Lost Ark,1981-10-09,Cines,1h 56min,Acción,Steven Spielberg,4.7,4.3,, EE.UU., Paramount Pictures Spain ,1981-01-01,22000000,Inglés
+Raiders of the Lost Ark,1981-10-09,Cines,1h 56min,Aventura,Steven Spielberg,4.7,4.3,, EE.UU., Paramount Pictures Spain ,1981-01-01,22000000,Inglés
+The Matrix,1999-06-25,Cines,2h 15min,Acción,Lana Wachowski,3.7,4.3,, EE.UU., Warner Bros Pictures España ,1999-01-01,63000000,Inglés
+The Matrix,1999-06-25,Cines,2h 15min,Acción,Lilly Wachowski,3.7,4.3,, EE.UU., Warner Bros Pictures España ,1999-01-01,63000000,Inglés
+The Matrix,1999-06-25,Cines,2h 15min,Ciencia ficción,Lana Wachowski,3.7,4.3,, EE.UU., Warner Bros Pictures España ,1999-01-01,63000000,Inglés
+The Matrix,1999-06-25,Cines,2h 15min,Ciencia ficción,Lilly Wachowski,3.7,4.3,, EE.UU., Warner Bros Pictures España ,1999-01-01,63000000,Inglés
+The Notebook,2004-10-22,Cines,2h 01min,Drama,Nick Cassavetes,2.9,4.3,3.5, EE.UU., Tripictures ,2004-01-01,30000000,Inglés
+The Notebook,2004-10-22,Cines,2h 01min,Romántico,Nick Cassavetes,2.9,4.3,3.5, EE.UU., Tripictures ,2004-01-01,30000000,Inglés
+The Super Mario Bros. Movie,2023-04-05,Cines,1h 32min,Animación,Aaron Horvath,,4.3,3.5, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+The Super Mario Bros. Movie,2023-04-05,Cines,1h 32min,Animación,Michael Jelenic,,4.3,3.5, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+The Super Mario Bros. Movie,2023-04-05,Cines,1h 32min,Comedia,Aaron Horvath,,4.3,3.5, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+The Super Mario Bros. Movie,2023-04-05,Cines,1h 32min,Comedia,Michael Jelenic,,4.3,3.5, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+The Super Mario Bros. Movie,2023-04-05,Cines,1h 32min,Familia,Aaron Horvath,,4.3,3.5, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+The Super Mario Bros. Movie,2023-04-05,Cines,1h 32min,Familia,Michael Jelenic,,4.3,3.5, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Animación,Mike Johnson,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Animación,Tim Burton,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Familia,Mike Johnson,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Familia,Tim Burton,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Fantasía,Mike Johnson,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Fantasía,Tim Burton,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Comedia musical,Mike Johnson,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Comedia musical,Tim Burton,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Romántico,Mike Johnson,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Corpse Bride,2005-10-28,Cines,1h 17min,Romántico,Tim Burton,4.4,4.3,3.5, EE.UU., Warner Bros Pictures España ,2004-01-01,40000000,Inglés
+Harry Potter and The Chamber of Secrets,2002-11-29,Cines,2h 38min,Fantasía,Chris Columbus,,4.3,, EE.UU., Warner Bros Pictures España ,2002-01-01,100000000,Inglés
+How to Train Your Dragon,2010-03-26,Cines,1h 33min,Aventura,Chris Sanders,3.4,4.3,4.0, EE.UU., Paramount Pictures Spain ,2010-01-01,165000000,Inglés
+How to Train Your Dragon,2010-03-26,Cines,1h 33min,Aventura,Dean DeBlois,3.4,4.3,4.0, EE.UU., Paramount Pictures Spain ,2010-01-01,165000000,Inglés
+How to Train Your Dragon,2010-03-26,Cines,1h 33min,Animación,Chris Sanders,3.4,4.3,4.0, EE.UU., Paramount Pictures Spain ,2010-01-01,165000000,Inglés
+How to Train Your Dragon,2010-03-26,Cines,1h 33min,Animación,Dean DeBlois,3.4,4.3,4.0, EE.UU., Paramount Pictures Spain ,2010-01-01,165000000,Inglés
+How to Train Your Dragon,2010-03-26,Cines,1h 33min,Familia,Chris Sanders,3.4,4.3,4.0, EE.UU., Paramount Pictures Spain ,2010-01-01,165000000,Inglés
+How to Train Your Dragon,2010-03-26,Cines,1h 33min,Familia,Dean DeBlois,3.4,4.3,4.0, EE.UU., Paramount Pictures Spain ,2010-01-01,165000000,Inglés
+John Wick: Chapter Two,2017-04-21,Cines,2h 03min,Acción,Chad Stahelski,3.9,4.3,4.0, EE.UU., Entertainment One Films Spain ,2017-01-01,0,Inglés
+Hauru no ugoku shiro,2006-03-03,Cines,1h 59min,Aventura,Hayao Miyazaki,,4.3,4.0, Japón, Aurum ,2004-01-01,0,Inglés
+Hauru no ugoku shiro,2006-03-03,Cines,1h 59min,Animación,Hayao Miyazaki,,4.3,4.0, Japón, Aurum ,2004-01-01,0,Inglés
+Hauru no ugoku shiro,2006-03-03,Cines,1h 59min,Fantasía,Hayao Miyazaki,,4.3,4.0, Japón, Aurum ,2004-01-01,0,Inglés
+El Secreto de Sus Ojos,2009-09-25,Cines,2h 09min,Crimen,Juan José Campanella,3.8,4.3,3.0, España, Alta Films ,2009-01-01,2000000,Inglés
+El Secreto de Sus Ojos,2009-09-25,Cines,2h 09min,Drama,Juan José Campanella,3.8,4.3,3.0, España, Alta Films ,2009-01-01,2000000,Inglés
+El Secreto de Sus Ojos,2009-09-25,Cines,2h 09min,Romántico,Juan José Campanella,3.8,4.3,3.0, España, Alta Films ,2009-01-01,2000000,Inglés
+El Secreto de Sus Ojos,2009-09-25,Cines,2h 09min,Suspense,Juan José Campanella,3.8,4.3,3.0, España, Alta Films ,2009-01-01,2000000,Inglés
+American Beauty,2000-01-28,Cines,2h 02min,Drama,Sam Mendes,4.9,4.3,4.0, EE.UU., Universal Pictures International Spain ,1999-01-01,15000000,Inglés
+The Great Escape,1963-11-11,Cines,2h 49min,Aventura,John Sturges,5.0,4.3,, EE.UU.,,1963-01-01,4000000,Inglés
+The Great Escape,1963-11-11,Cines,2h 49min,Drama,John Sturges,5.0,4.3,, EE.UU.,,1963-01-01,4000000,Inglés
+Harry Potter and the Order of the Phoenix,2007-07-13,Cines,2h 18min,Aventura,David Yates,4.3,4.3,3.0, EE.UU., Warner Bros Pictures España ,2007-01-01,150000000,Inglés
+Harry Potter and the Order of the Phoenix,2007-07-13,Cines,2h 18min,Drama,David Yates,4.3,4.3,3.0, EE.UU., Warner Bros Pictures España ,2007-01-01,150000000,Inglés
+Harry Potter and the Order of the Phoenix,2007-07-13,Cines,2h 18min,Familia,David Yates,4.3,4.3,3.0, EE.UU., Warner Bros Pictures España ,2007-01-01,150000000,Inglés
+Harry Potter and the Order of the Phoenix,2007-07-13,Cines,2h 18min,Fantasía,David Yates,4.3,4.3,3.0, EE.UU., Warner Bros Pictures España ,2007-01-01,150000000,Inglés
+Shutter Island,2010-02-19,Cines,2h 17min,Suspense,Martin Scorsese,2.2,4.3,4.0, EE.UU., Vértice Cine ,2010-01-01,80000000,Inglés
+Le Nom de la Rose,1986-12-19,Cines,2h 12min,Aventura,Jean-Jacques Annaud,,4.3,, Francia, Araba Films ,1986-01-01,20000000,Inglés
+Le Nom de la Rose,1986-12-19,Cines,2h 12min,Crimen,Jean-Jacques Annaud,,4.3,, Francia, Araba Films ,1986-01-01,20000000,Inglés
+Le Nom de la Rose,1986-12-19,Cines,2h 12min,Drama,Jean-Jacques Annaud,,4.3,, Francia, Araba Films ,1986-01-01,20000000,Inglés
+Le Nom de la Rose,1986-12-19,Cines,2h 12min,Suspense,Jean-Jacques Annaud,,4.3,, Francia, Araba Films ,1986-01-01,20000000,Inglés
+La sociedad de la nieve,2023-12-15,Cines,2h 24min,Drama,Juan Antonio Bayona,4.0,4.3,4.5, España, Tripictures ,2023-01-01,0,Inglés
+La sociedad de la nieve,2023-12-15,Cines,2h 24min,Suspense,Juan Antonio Bayona,4.0,4.3,4.5, España, Tripictures ,2023-01-01,0,Inglés
+Paths of Glory,1986-10-13,Cines,1h 28min,Drama,Stanley Kubrick,4.3,4.3,, EE.UU.,,1957-01-01,935000,Inglés
+Paths of Glory,1986-10-13,Cines,1h 28min,Guerra,Stanley Kubrick,4.3,4.3,, EE.UU.,,1957-01-01,935000,Inglés
+Five Feet Apart,2019-09-13,Cines,1h 57min,Drama,Justin Baldoni,2.7,4.3,, EE.UU., Universal Pictures International Spain ,2019-01-01,0,Inglés
+Five Feet Apart,2019-09-13,Cines,1h 57min,Romántico,Justin Baldoni,2.7,4.3,, EE.UU., Universal Pictures International Spain ,2019-01-01,0,Inglés
+Bram Stoker's Dracula,1993-01-15,Cines,2h 08min,Drama,Francis Ford Coppola,3.8,4.3,3.5, EE.UU., Sony Pictures Releasing de España ,1992-01-01,0,Inglés
+Bram Stoker's Dracula,1993-01-15,Cines,2h 08min,Terror,Francis Ford Coppola,3.8,4.3,3.5, EE.UU., Sony Pictures Releasing de España ,1992-01-01,0,Inglés
+Bram Stoker's Dracula,1993-01-15,Cines,2h 08min,Romántico,Francis Ford Coppola,3.8,4.3,3.5, EE.UU., Sony Pictures Releasing de España ,1992-01-01,0,Inglés
+How To Train Your Dragon: The Hidden World,2019-02-22,Cines,1h 44min,Aventura,Dean DeBlois,3.7,4.3,3.0, EE.UU., Universal Pictures International Spain ,2019-01-01,0,Inglés
+How To Train Your Dragon: The Hidden World,2019-02-22,Cines,1h 44min,Animación,Dean DeBlois,3.7,4.3,3.0, EE.UU., Universal Pictures International Spain ,2019-01-01,0,Inglés
+How To Train Your Dragon: The Hidden World,2019-02-22,Cines,1h 44min,Familia,Dean DeBlois,3.7,4.3,3.0, EE.UU., Universal Pictures International Spain ,2019-01-01,0,Inglés
+Top Gun: Maverick,2022-05-26,Cines,2h 11min,Acción,Joseph Kosinski,4.1,4.3,3.0, EE.UU., Paramount Pictures Spain ,2022-01-01,0,Inglés
+Fight Club,1999-11-05,Cines,2h 19min,Drama,David Fincher,3.9,4.3,4.0, Alemania, Twentieth Century Studios España ,1999-01-01,63000000,Inglés
+Fight Club,1999-11-05,Cines,2h 19min,Suspense,David Fincher,3.9,4.3,4.0, Alemania, Twentieth Century Studios España ,1999-01-01,63000000,Inglés
+Iron Man,2008-04-30,Cines,2h 06min,Acción,Jon Favreau,3.7,4.3,3.0, EE.UU., Sony Pictures Releasing de España ,2008-01-01,75000000,Inglés
+Iron Man,2008-04-30,Cines,2h 06min,Ciencia ficción,Jon Favreau,3.7,4.3,3.0, EE.UU., Sony Pictures Releasing de España ,2008-01-01,75000000,Inglés
+Legends of the Fall,1995-03-10,Cines,2h 13min,Romántico,Edward Zwick,2.6,4.3,, EE.UU., Columbia TriStar Films de Espana S.A. ,1995-01-01,0,Inglés
+Legends of the Fall,1995-03-10,Cines,2h 13min,Guerra,Edward Zwick,2.6,4.3,, EE.UU., Columbia TriStar Films de Espana S.A. ,1995-01-01,0,Inglés
+Wonder,2017-12-01,Cines,1h 51min,Drama,Stephen Chbosky,3.5,4.3,, EE.UU., Entertainment One Films Spain ,2017-01-01,0,Inglés
+Wonder,2017-12-01,Cines,1h 51min,Familia,Stephen Chbosky,3.5,4.3,, EE.UU., Entertainment One Films Spain ,2017-01-01,0,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Animación,Hamilton Luske,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Animación,Clyde Geronimi,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Animación,Wilfred Jackson,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Familia,Hamilton Luske,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Familia,Clyde Geronimi,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Familia,Wilfred Jackson,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Comedia musical,Hamilton Luske,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Comedia musical,Clyde Geronimi,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Lady and the Tramp,1957-04-21,Cines,1h 15min,Comedia musical,Wilfred Jackson,,4.3,, EE.UU.,,1955-01-01,4000000,Inglés
+Whiplash,2015-01-16,Cines,1h 47min,Drama,Damien Chazelle,4.2,4.3,4.0, EE.UU., Sony Pictures Releasing de España ,2014-01-01,3300000,Inglés
+Whiplash,2015-01-16,Cines,1h 47min,Música,Damien Chazelle,4.2,4.3,4.0, EE.UU., Sony Pictures Releasing de España ,2014-01-01,3300000,Inglés
+Aliens,1986-10-30,Cines,2h 17min,Acción,James Cameron,4.3,4.3,, EE.UU.,,1986-01-01,18500000,Inglés
+Aliens,1986-10-30,Cines,2h 17min,Ciencia ficción,James Cameron,4.3,4.3,, EE.UU.,,1986-01-01,18500000,Inglés
+It's a Wonderful Life,1948-03-27,Cines,2h 09min,Comedia,Frank Capra,4.7,4.3,, EE.UU.,,1946-01-01,2800000,Inglés
+It's a Wonderful Life,1948-03-27,Cines,2h 09min,Comedia dramática,Frank Capra,4.7,4.3,, EE.UU.,,1946-01-01,2800000,Inglés
+It's a Wonderful Life,1948-03-27,Cines,2h 09min,Drama,Frank Capra,4.7,4.3,, EE.UU.,,1946-01-01,2800000,Inglés
+It's a Wonderful Life,1948-03-27,Cines,2h 09min,Fantasía,Frank Capra,4.7,4.3,, EE.UU.,,1946-01-01,2800000,Inglés
+Man on Fire,2004-10-08,Cines,2h 26min,Acción,Tony Scott,3.0,4.3,3.5, EE.UU., Twentieth Century Studios España ,2004-01-01,70000000,Inglés
+Man on Fire,2004-10-08,Cines,2h 26min,Crimen,Tony Scott,3.0,4.3,3.5, EE.UU., Twentieth Century Studios España ,2004-01-01,70000000,Inglés
+Man on Fire,2004-10-08,Cines,2h 26min,Suspense,Tony Scott,3.0,4.3,3.5, EE.UU., Twentieth Century Studios España ,2004-01-01,70000000,Inglés
+The Truman Show,1998-10-30,Cines,1h 43min,Comedia,Peter Weir,4.8,4.3,4.5, EE.UU., Universal Pictures International Spain ,1998-01-01,60000000,Inglés
+The Truman Show,1998-10-30,Cines,1h 43min,Drama,Peter Weir,4.8,4.3,4.5, EE.UU., Universal Pictures International Spain ,1998-01-01,60000000,Inglés
+Back to the Future Part II,1989-12-22,Cines,1h 48min,Aventura,Robert Zemeckis,3.3,4.3,4.5, EE.UU., Universal Pictures International Spain ,1989-01-01,0,Inglés
+Back to the Future Part II,1989-12-22,Cines,1h 48min,Comedia,Robert Zemeckis,3.3,4.3,4.5, EE.UU., Universal Pictures International Spain ,1989-01-01,0,Inglés
+Back to the Future Part II,1989-12-22,Cines,1h 48min,Ciencia ficción,Robert Zemeckis,3.3,4.3,4.5, EE.UU., Universal Pictures International Spain ,1989-01-01,0,Inglés
+Tangled,2011-02-04,Cines,1h 41min,Animación,Byron Howard,3.5,4.3,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,260000000,Inglés
+Tangled,2011-02-04,Cines,1h 41min,Animación,Nathan Greno,3.5,4.3,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,260000000,Inglés
+Tangled,2011-02-04,Cines,1h 41min,Familia,Byron Howard,3.5,4.3,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,260000000,Inglés
+Tangled,2011-02-04,Cines,1h 41min,Familia,Nathan Greno,3.5,4.3,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2010-01-01,260000000,Inglés
+How to Train Your Dragon 2,2014-08-01,Cines,1h 43min,Aventura,Dean DeBlois,3.5,4.3,4.0, EE.UU., Twentieth Century Studios España ,2014-01-01,145000000,Inglés
+How to Train Your Dragon 2,2014-08-01,Cines,1h 43min,Animación,Dean DeBlois,3.5,4.3,4.0, EE.UU., Twentieth Century Studios España ,2014-01-01,145000000,Inglés
+How to Train Your Dragon 2,2014-08-01,Cines,1h 43min,Familia,Dean DeBlois,3.5,4.3,4.0, EE.UU., Twentieth Century Studios España ,2014-01-01,145000000,Inglés
+Matilda,1996-12-20,Cines,1h 38min,Comedia,Danny DeVito,3.4,4.3,3.5, EE.UU., Sony Pictures Releasing de España ,1996-01-01,36000000,Inglés
+Matilda,1996-12-20,Cines,1h 38min,Fantasía,Danny DeVito,3.4,4.3,3.5, EE.UU., Sony Pictures Releasing de España ,1996-01-01,36000000,Inglés
+Taken,2008-08-08,Cines,1h 30min,Acción,Pierre Morel,3.0,4.3,2.5, Francia, Twentieth Century Studios España ,2008-01-01,25000000,Inglés
+Taken,2008-08-08,Cines,1h 30min,Crimen,Pierre Morel,3.0,4.3,2.5, Francia, Twentieth Century Studios España ,2008-01-01,25000000,Inglés
+Taken,2008-08-08,Cines,1h 30min,Suspense,Pierre Morel,3.0,4.3,2.5, Francia, Twentieth Century Studios España ,2008-01-01,25000000,Inglés
+Guardians Of The Galaxy,2014-08-14,Cines,2h 01min,Acción,James Gunn,4.2,4.3,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,170000000,Inglés
+Guardians Of The Galaxy,2014-08-14,Cines,2h 01min,Ciencia ficción,James Gunn,4.2,4.3,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2014-01-01,170000000,Inglés
+Léon,1995-04-07,Cines,1h 43min,Acción,Luc Besson,3.0,4.3,1.5, Francia, Buena Vista International Spain ,1994-01-01,115000000,Inglés
+Léon,1995-04-07,Cines,1h 43min,Crimen,Luc Besson,3.0,4.3,1.5, Francia, Buena Vista International Spain ,1994-01-01,115000000,Inglés
+Léon,1995-04-07,Cines,1h 43min,Drama,Luc Besson,3.0,4.3,1.5, Francia, Buena Vista International Spain ,1994-01-01,115000000,Inglés
+Léon,1995-04-07,Cines,1h 43min,Suspense,Luc Besson,3.0,4.3,1.5, Francia, Buena Vista International Spain ,1994-01-01,115000000,Inglés
+Grease,1978-09-22,Cines,1h 45min,Comedia,Randal Kleiser,3.3,4.3,, EE.UU., Paramount Pictures Spain ,1978-01-01,6000000,Inglés
+Grease,1978-09-22,Cines,1h 45min,Comedia musical,Randal Kleiser,3.3,4.3,, EE.UU., Paramount Pictures Spain ,1978-01-01,6000000,Inglés
+Grease,1978-09-22,Cines,1h 45min,Romántico,Randal Kleiser,3.3,4.3,, EE.UU., Paramount Pictures Spain ,1978-01-01,6000000,Inglés
+Dances with Wolves,1991-03-08,Cines,3h 54min,Western,Kevin Costner,4.4,4.3,3.0, EE.UU., United International Pictures ,1990-01-01,19000000,Inglés
+Dances with Wolves,1991-03-08,Cines,3h 54min,Western,Kevin Reynolds,4.4,4.3,3.0, EE.UU., United International Pictures ,1990-01-01,19000000,Inglés
+Avatar,2009-12-18,Cines,2h 42min,Aventura,James Cameron,3.1,4.3,1.0, EE.UU., Twentieth Century Studios España ,2009-01-01,237000000,Inglés
+Avatar,2009-12-18,Cines,2h 42min,Ciencia ficción,James Cameron,3.1,4.3,1.0, EE.UU., Twentieth Century Studios España ,2009-01-01,237000000,Inglés
+Singin' in the Rain,1953-04-04,Cines,1h 43min,Comedia musical,Stanley Donen,4.8,4.3,, EE.UU., Warner Bros Pictures España ,1952-01-01,2540800,Inglés
+Singin' in the Rain,1953-04-04,Cines,1h 43min,Comedia musical,Gene Kelly,4.8,4.3,, EE.UU., Warner Bros Pictures España ,1952-01-01,2540800,Inglés
+Oppenheimer,2023-07-20,Cines,3h 01min,Biopic,Christopher Nolan,3.6,4.3,5.0, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+Oppenheimer,2023-07-20,Cines,3h 01min,Histórico,Christopher Nolan,3.6,4.3,5.0, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+Oppenheimer,2023-07-20,Cines,3h 01min,Suspense,Christopher Nolan,3.6,4.3,5.0, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+The Greatest Showman,2017-12-29,Cines,1h 44min,Drama,Michael Gracey,3.0,4.3,2.5, EE.UU., Twentieth Century Studios España ,2017-01-01,0,Inglés
+The Greatest Showman,2017-12-29,Cines,1h 44min,Comedia musical,Michael Gracey,3.0,4.3,2.5, EE.UU., Twentieth Century Studios España ,2017-01-01,0,Inglés
+Spider-Man,2002-06-21,Cines,2h 01min,Acción,Sam Raimi,3.8,4.3,4.0, EE.UU., Sony Pictures Releasing de España ,2002-01-01,139000000,Inglés
+Spider-Man,2002-06-21,Cines,2h 01min,Fantasía,Sam Raimi,3.8,4.3,4.0, EE.UU., Sony Pictures Releasing de España ,2002-01-01,139000000,Inglés
+The Blind Side,2010-06-18,Cines,2h 09min,Biopic,John Lee Hancock,2.1,4.3,0.5, EE.UU., Warner Bros Pictures España ,2009-01-01,29000000,Inglés
+The Blind Side,2010-06-18,Cines,2h 09min,Drama,John Lee Hancock,2.1,4.3,0.5, EE.UU., Warner Bros Pictures España ,2009-01-01,29000000,Inglés
+North by Northwest,1959-12-28,Cines,2h 16min,Aventura,Alfred Hitchcock,4.3,4.3,, EE.UU., 39 Escalones ,1959-01-01,4000000,Inglés
+North by Northwest,1959-12-28,Cines,2h 16min,Crimen,Alfred Hitchcock,4.3,4.3,, EE.UU., 39 Escalones ,1959-01-01,4000000,Inglés
+North by Northwest,1959-12-28,Cines,2h 16min,Espionaje,Alfred Hitchcock,4.3,4.3,, EE.UU., 39 Escalones ,1959-01-01,4000000,Inglés
+North by Northwest,1959-12-28,Cines,2h 16min,Suspense,Alfred Hitchcock,4.3,4.3,, EE.UU., 39 Escalones ,1959-01-01,4000000,Inglés
+The Book of Life,2015-02-20,Cines,1h 35min,Animación,Jorge R. Gutierrez,3.1,4.3,4.0, EE.UU., Twentieth Century Studios España ,2014-01-01,50000000,Inglés
+The Book of Life,2015-02-20,Cines,1h 35min,Comedia,Jorge R. Gutierrez,3.1,4.3,4.0, EE.UU., Twentieth Century Studios España ,2014-01-01,50000000,Inglés
+The Book of Life,2015-02-20,Cines,1h 35min,Familia,Jorge R. Gutierrez,3.1,4.3,4.0, EE.UU., Twentieth Century Studios España ,2014-01-01,50000000,Inglés
+The Last Samurai,2004-01-09,Cines,2h 24min,Histórico,Edward Zwick,,4.3,3.0, EE.UU., Warner Bros Pictures España ,2003-01-01,100000000,Inglés
+The Last Samurai,2004-01-09,Cines,2h 24min,Guerra,Edward Zwick,,4.3,3.0, EE.UU., Warner Bros Pictures España ,2003-01-01,100000000,Inglés
+La La Land,2017-01-13,Cines,2h 08min,Comedia musical,Damien Chazelle,4.1,4.2,3.0, EE.UU., Universal Pictures International Spain ,2016-01-01,0,Inglés
+La La Land,2017-01-13,Cines,2h 08min,Romántico,Damien Chazelle,4.1,4.2,3.0, EE.UU., Universal Pictures International Spain ,2016-01-01,0,Inglés
+Cars,2006-07-07,Cines,1h 36min,Acción,John Lasseter,3.2,4.2,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2006-01-01,70000000,Inglés
+Cars,2006-07-07,Cines,1h 36min,Animación,John Lasseter,3.2,4.2,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2006-01-01,70000000,Inglés
+Cars,2006-07-07,Cines,1h 36min,Comedia,John Lasseter,3.2,4.2,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2006-01-01,70000000,Inglés
+Cars,2006-07-07,Cines,1h 36min,Fantasía,John Lasseter,3.2,4.2,3.0, EE.UU., Walt Disney Studios Motion Picture Spain ,2006-01-01,70000000,Inglés
+Shichinin no samurai,1967-04-20,Cines,3h 27min,Acción,Akira Kurosawa,4.3,4.2,, Japón,,1954-01-01,0,Inglés
+Shichinin no samurai,1967-04-20,Cines,3h 27min,Aventura,Akira Kurosawa,4.3,4.2,, Japón,,1954-01-01,0,Inglés
+Captain America: Civil War,2016-04-29,Cines,2h 28min,Acción,Anthony Russo,4.2,4.2,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2016-01-01,250000000,Inglés
+Captain America: Civil War,2016-04-29,Cines,2h 28min,Acción,Joe Russo,4.2,4.2,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2016-01-01,250000000,Inglés
+Captain America: Civil War,2016-04-29,Cines,2h 28min,Fantasía,Anthony Russo,4.2,4.2,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2016-01-01,250000000,Inglés
+Captain America: Civil War,2016-04-29,Cines,2h 28min,Fantasía,Joe Russo,4.2,4.2,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2016-01-01,250000000,Inglés
+300,2007-03-23,Cines,1h 55min,Acción,Zack Snyder,2.5,4.2,1.0, EE.UU., Warner Bros Pictures España ,2006-01-01,60000000,Inglés
+300,2007-03-23,Cines,1h 55min,Histórico,Zack Snyder,2.5,4.2,1.0, EE.UU., Warner Bros Pictures España ,2006-01-01,60000000,Inglés
+300,2007-03-23,Cines,1h 55min,Épico,Zack Snyder,2.5,4.2,1.0, EE.UU., Warner Bros Pictures España ,2006-01-01,60000000,Inglés
+300,2007-03-23,Cines,1h 55min,Guerra,Zack Snyder,2.5,4.2,1.0, EE.UU., Warner Bros Pictures España ,2006-01-01,60000000,Inglés
+Despicable Me,2010-10-08,Cines,1h 35min,Animación,Chris Renaud,3.0,4.2,3.0, EE.UU., Universal Pictures International Spain ,2010-01-01,69000000,Inglés
+Despicable Me,2010-10-08,Cines,1h 35min,Animación,Pierre Coffin,3.0,4.2,3.0, EE.UU., Universal Pictures International Spain ,2010-01-01,69000000,Inglés
+Dumbo,1944-09-25,Cines,1h 04min,Animación,Ben Sharpsteen,4.9,4.2,, EE.UU.,,1941-01-01,0,Inglés
+Dumbo,1944-09-25,Cines,1h 04min,Animación,Norman Ferguson,4.9,4.2,, EE.UU.,,1941-01-01,0,Inglés
+Dumbo,1944-09-25,Cines,1h 04min,Animación,Wilfred Jackson,4.9,4.2,, EE.UU.,,1941-01-01,0,Inglés
+Dumbo,1944-09-25,Cines,1h 04min,Comedia musical,Ben Sharpsteen,4.9,4.2,, EE.UU.,,1941-01-01,0,Inglés
+Dumbo,1944-09-25,Cines,1h 04min,Comedia musical,Norman Ferguson,4.9,4.2,, EE.UU.,,1941-01-01,0,Inglés
+Dumbo,1944-09-25,Cines,1h 04min,Comedia musical,Wilfred Jackson,4.9,4.2,, EE.UU.,,1941-01-01,0,Inglés
+The Curious Case of Benjamin Button,2009-02-06,Cines,2h 35min,Drama,David Fincher,4.0,4.2,4.0, EE.UU., Warner Bros Pictures España ,2008-01-01,200000000,Inglés
+The Curious Case of Benjamin Button,2009-02-06,Cines,2h 35min,Fantasía,David Fincher,4.0,4.2,4.0, EE.UU., Warner Bros Pictures España ,2008-01-01,200000000,Inglés
+The Curious Case of Benjamin Button,2009-02-06,Cines,2h 35min,Romántico,David Fincher,4.0,4.2,4.0, EE.UU., Warner Bros Pictures España ,2008-01-01,200000000,Inglés
+Green Book,2019-02-01,Cines,2h 10min,Biopic,Peter Farrelly,3.6,4.2,3.5, EE.UU., Entertainment One Films Spain ,2018-01-01,0,Inglés
+Green Book,2019-02-01,Cines,2h 10min,Drama,Peter Farrelly,3.6,4.2,3.5, EE.UU., Entertainment One Films Spain ,2018-01-01,0,Inglés
+Hidden Figures,2017-01-20,Cines,2h 07min,Biopic,Theodore Melfi,3.4,4.2,3.0, EE.UU., Twentieth Century Studios España ,2016-01-01,0,Inglés
+Hidden Figures,2017-01-20,Cines,2h 07min,Drama,Theodore Melfi,3.4,4.2,3.0, EE.UU., Twentieth Century Studios España ,2016-01-01,0,Inglés
+Guardians of the Galaxy Vol. 3,2023-05-04,Cines,2h 30min,Acción,James Gunn,3.8,4.2,, EE.UU., Walt Disney Studios Motion Picture Spain ,2023-01-01,0,Inglés
+Guardians of the Galaxy Vol. 3,2023-05-04,Cines,2h 30min,Fantasía,James Gunn,3.8,4.2,, EE.UU., Walt Disney Studios Motion Picture Spain ,2023-01-01,0,Inglés
+Guardians of the Galaxy Vol. 3,2023-05-04,Cines,2h 30min,Ciencia ficción,James Gunn,3.8,4.2,, EE.UU., Walt Disney Studios Motion Picture Spain ,2023-01-01,0,Inglés
+My Name Is Khan,2010-05-28,Cines,2h 45min,Bollywood,Karan Johar,2.0,4.2,2.5, India, Twentieth Century Studios España ,2010-01-01,0,Inglés
+My Name Is Khan,2010-05-28,Cines,2h 45min,Drama,Karan Johar,2.0,4.2,2.5, India, Twentieth Century Studios España ,2010-01-01,0,Inglés
+The Wolf Of Wall Street,2014-01-17,Cines,2h 59min,Biopic,Martin Scorsese,3.6,4.2,3.5, EE.UU., Universal Pictures International Spain ,2013-01-01,100000000,Inglés
+The Wolf Of Wall Street,2014-01-17,Cines,2h 59min,Drama,Martin Scorsese,3.6,4.2,3.5, EE.UU., Universal Pictures International Spain ,2013-01-01,100000000,Inglés
+The Incredibles 2,2018-08-03,Cines,1h 58min,Aventura,Brad Bird,4.1,4.2,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+The Incredibles 2,2018-08-03,Cines,1h 58min,Animación,Brad Bird,4.1,4.2,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+The Incredibles 2,2018-08-03,Cines,1h 58min,Familia,Brad Bird,4.1,4.2,4.5, EE.UU., Walt Disney Studios Motion Picture Spain ,2018-01-01,0,Inglés
+"Three Billboards Outside Ebbing, Missouri",2018-01-12,Cines,1h 56min,Comedia,Martin McDonagh,3.9,4.2,4.0, Gran Bretaña, Twentieth Century Studios España ,2017-01-01,0,Inglés
+"Three Billboards Outside Ebbing, Missouri",2018-01-12,Cines,1h 56min,Crimen,Martin McDonagh,3.9,4.2,4.0, Gran Bretaña, Twentieth Century Studios España ,2017-01-01,0,Inglés
+"Three Billboards Outside Ebbing, Missouri",2018-01-12,Cines,1h 56min,Drama,Martin McDonagh,3.9,4.2,4.0, Gran Bretaña, Twentieth Century Studios España ,2017-01-01,0,Inglés
+Five Nights At Freddy's,2023-11-01,Cines,1h 50min,Terror,Emma Tammi,2.5,4.2,, EE.UU., Universal Pictures International Spain ,2023-01-01,0,Inglés
+Casablanca,1946-12-19,Cines,1h 42min,Drama,Michael Curtiz,4.8,4.2,, EE.UU.,,1942-01-01,950000,Inglés
+Casablanca,1946-12-19,Cines,1h 42min,Romántico,Michael Curtiz,4.8,4.2,, EE.UU.,,1942-01-01,950000,Inglés
+Harry Potter and the Half-Blood Prince,2009-07-15,Cines,2h 33min,Aventura,David Yates,2.0,4.2,3.0, EE.UU., Warner Bros Pictures España ,2009-01-01,250000000,Inglés
+Harry Potter and the Half-Blood Prince,2009-07-15,Cines,2h 33min,Fantasía,David Yates,2.0,4.2,3.0, EE.UU., Warner Bros Pictures España ,2009-01-01,250000000,Inglés
+Coraline,2009-06-05,Cines,1h 40min,Animación,Henry Selick,4.3,4.2,4.5, EE.UU., Universal Pictures International Spain ,2009-01-01,60000000,Inglés
+Coraline,2009-06-05,Cines,1h 40min,Familia,Henry Selick,4.3,4.2,4.5, EE.UU., Universal Pictures International Spain ,2009-01-01,60000000,Inglés
+Coraline,2009-06-05,Cines,1h 40min,Fantasía,Henry Selick,4.3,4.2,4.5, EE.UU., Universal Pictures International Spain ,2009-01-01,60000000,Inglés
+Requiem for a Dream,2001-03-23,Cines,1h 42min,Drama,Darren Aronofsky,4.5,4.2,4.0, EE.UU., Lauren Film ,2000-01-01,4500000,Inglés
+As Good As It Gets,1998-02-27,Cines,2h 18min,Comedia dramática,James L. Brooks,3.3,4.2,3.0, EE.UU., Sony Pictures Releasing de España ,1997-01-01,50000000,Inglés
+As Good As It Gets,1998-02-27,Cines,2h 18min,Romántico,James L. Brooks,3.3,4.2,3.0, EE.UU., Sony Pictures Releasing de España ,1997-01-01,50000000,Inglés

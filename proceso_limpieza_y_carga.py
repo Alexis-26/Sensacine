@@ -4,7 +4,7 @@ import Limpieza_y_Carga.funciones_carga_bd as fbd
 from mysql.connector import connect, Error
 
 def limpieza_datos():
-    df = pd.read_csv("Dataset/sensacine.csv", index_col=0)
+    df = pd.read_csv("Datasets/sensacine.csv", index_col=0)
     df = fl.sp_insert_puntaje(df)
     df = fl.eliminar_espacios(df)
     df = fl.tipo_estreno(df)
@@ -16,10 +16,10 @@ def limpieza_datos():
     df = fl.sensacine(df)
     df = fl.fecha_produccion(df)
     df = fl.idioma_default(df)
-    df.to_csv("Dataset/sensacine_limpio.csv", index=False)
+    df.to_csv("Datasets/sensacine_limpio.csv", index=False)
 
 def carga_datos():
-    df = pd.read_csv("Dataset/sensacine_limpio.csv")
+    df = pd.read_csv("Datasets/sensacine_limpio.csv")
     db = fbd.connect_db()
     fbd.sp_insert_pelicula(db, df)
     fbd.sp_insert_director(db, df)

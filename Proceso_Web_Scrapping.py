@@ -15,7 +15,7 @@ def Proceso():
         peliculas(navegador)
         time.sleep(6)
         top_películas(navegador)
-        time.sleep(25) #Este se debe de quitar
+        time.sleep(25)
         for i in range(1, 30):
             cant = len(bloques_peliculas(navegador))
             for pelicula in range(cant):
@@ -35,10 +35,10 @@ def Proceso():
             boton_siguiente(navegador)
             time.sleep(10)
         df = crear_dataframe()
-        df.to_csv("Dataset/sensacine.csv")
+        df.to_csv("Datasets/sensacine.csv")
     except Exception as e:
         df = crear_dataframe()
-        df.to_csv("Dataset/sensacine.csv")
+        df.to_csv("Datasets/sensacine.csv")
         print(e)
 
 if __name__ == "__main__":
