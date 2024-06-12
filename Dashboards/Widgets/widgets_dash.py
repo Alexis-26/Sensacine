@@ -6,7 +6,7 @@ import pandas as pd
 """
 Se realizó una función para la visualización de un botón desplegable,S+se despliega usuarios, 
 medios y sensacine, predeterminando viaualizualmente Usuarios
-se le agrega un id para llamarlo en el callback
+se le agrega un id para llamarlo en el callback.
 """
 def widgets_dropdown_dir():                                                     
     califdir = html.Div([                   
@@ -38,7 +38,6 @@ def widget_radio():
 Se creo una función dónde el widget  es de opción, este  selecciona uno 
 de los botones  que esten en este seria presupuesto total y presupuesto promedio
 se pone inline ya que este se cargar de poner los botones de manera horizontal.
-
 """
 def widget_cambios():
     cambio_presupuesto = html.Div([
