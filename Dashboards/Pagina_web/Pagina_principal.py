@@ -1,10 +1,11 @@
 import dash                                                #Importamos la librería de Dash
 import dash_bootstrap_components as dbc                    #Importamos los componentes de Bootstrap para Dash
 from dash import Input, Output, dcc, html                  #Importamos elementos específicos de Dash
-from Boton_dir_calf import btn_one                         #Importamos el primer botón desde Boton_dir_calf
-from segundo_btn_segundo_dsh import tarjetas_filtro        #Importamos las tarjetas de filtro desde segundo_btn_segundo_dsh
-from x import btn_two                                      #Importamos el segundo botón desde x
-from tercer_btn import widget_tiempo                       #Importamos el widget de tiempo desde tercer_btn
+from Botones import widgets_dropdown_dir                        #Importamos el primer botón desde Boton_dir_calf
+from Botones import widget_rslider      #Importamos las tarjetas de filtro desde segundo_btn_segundo_dsh
+from Botones import widget_cambios                                      #Importamos el segundo botón desde x
+from Botones import widget_radio                 #Importamos el widget de tiempo desde tercer_btn
+from Botones import widget_rslider  
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])     #Declaramos la aplicación Dash con Bootstrap
 
@@ -28,7 +29,7 @@ CONTENT_STYLE = {                            #Estilos del contenido
 
 sidebar = html.Div(
     [
-        html.P("Analisis Sensacine", className="lead"),                                            #Texto de encabezado en el menú
+        html.P("Menú", className="lead-position"),                                            #Texto de encabezado en el menú
         dbc.Nav(                                                                                   #Navegación en el menú
             [
                 dbc.NavLink("Dashboard 1", href="/", active="exact", className="nav-link"),        #Enlace a Dashboard 1
@@ -58,7 +59,6 @@ app.layout = html.Div([
     content                                                                                        #Contenido principal
 ])
 
-
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")]) #Callback para actualizar el contenido basado en la URL
 def render_page_content(pathname):
     if pathname == "/":                                                       #La dirección a la que pertenece esta pagina
@@ -66,10 +66,11 @@ def render_page_content(pathname):
             [
                 html.Main(
                     [
-                        html.H2("Dashboard directores", style={"font-family": "Lucida Sans, sans-serif", "font-size": "30px", "margin-left": "-145px", "margin-top": "-90px"}, className="lead"),  # Título del Dashboard
-                        html.Div(btn_one(), className="dropdown-container"),  #Primer botón
-                        html.Div(btn_two(), className="custom-slider"),       #Segundo botón (slider)
-                        html.Div(tarjetas_filtro())                           #Tarjetas de filtro
+                        html.H2("Directores con mejores calificaciones", style={"font-family": "Lucida Sans, sans-serif", "font-size": "30px", "margin-left": "-50px", "margin-top": "-95px"}, className="lead"),  # Título del Dashboard
+                        dbc.Row([
+                            dbc.Col(widgets_dropdown_dir(), width=5, className="dropdown-container"),
+                            dbc.Col(widget_rslider(), width=7, className="custom-slider")
+                        ])                       
                     ],
                     className="container"
                 ),
@@ -77,11 +78,36 @@ def render_page_content(pathname):
             ]
         )
     elif pathname == "/page-1":                                       #Contenido para la página 1
-        return html.P("This is the content of page 1. Yay!")
+        return html.Div(
+            [
+                html.Main(
+                    [
+                        html.H2("Distribuidoras con mayor presupuesto", style={"font-family": "Lucida Sans, sans-serif", "font-size": "30px", "margin-left": "-50px", "margin-top": "-95px"}, className="lead"),  # Título del Dashboard
+                        dbc.Row([
+                            dbc.Col(widget_cambios(), width=12)
+                        ])                       
+                    ],
+                    className="container"
+                ),
+                html.Footer(style={"background": "#333", "padding": "10px 0", "position": "absolute", "bottom": "0", "width": "100%"})  # Pie de página
+            ]
+        )
     elif pathname == "/page-2":                                       #Contenido para la página 2
-        return html.P("Oh cool, this is page 2!")
-    elif pathname == "/page-3":                                       #Contenido para la página 3
-        return html.P("This is the content of page 3.")
+        return html.Div(
+            [
+                html.Main(
+                    [
+                        html.H2("Directores con mejores calificaciones", style={"font-family": "Lucida Sans, sans-serif", "font-size": "30px", "margin-left": "-50px", "margin-top": "-95px"}, className="lead"),  # Título del Dashboard
+                        dbc.Row([
+                            dbc.Col(widget_radio(), width=5, className="dropdown-container"),
+                            dbc.Col(widget_rslider(), width=7, className="custom-slider")
+                        ])                       
+                    ],
+                    className="container"
+                ),
+                html.Footer(style={"background": "#333", "padding": "10px 0", "position": "absolute", "bottom": "0", "width": "100%"})  # Pie de página
+            ]
+        )
     return html.Div(                                                  #Contenido para página no encontrada (404)
         [
             html.H1("404: Not found", className="text-danger"),
