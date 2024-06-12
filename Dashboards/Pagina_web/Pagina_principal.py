@@ -1,11 +1,14 @@
 import dash                                                #Importamos la librería de Dash
 import dash_bootstrap_components as dbc                    #Importamos los componentes de Bootstrap para Dash
 from dash import Input, Output, dcc, html                  #Importamos elementos específicos de Dash
-from Botones import widgets_dropdown_dir                        #Importamos el primer botón desde Boton_dir_calf
-from Botones import widget_rslider      #Importamos las tarjetas de filtro desde segundo_btn_segundo_dsh
-from Botones import widget_cambios                                      #Importamos el segundo botón desde x
-from Botones import widget_radio                 #Importamos el widget de tiempo desde tercer_btn
-from Botones import widget_rslider  
+from Botones import widgets_dropdown_dir                   #Importamos el primer botón desde Boton_dir_calf
+from Botones import widget_rslider                         #Importamos las tarjetas de filtro desde segundo_btn_segundo_dsh
+from Botones import widget_cambios                         #Importamos el segundo botón desde x
+from Botones import widget_radio                           #Importamos el widget de tiempo desde tercer_btn
+from Botones import widget_rslider
+from Graficas import graficas_dashboard_1
+from Graficas import graficas_dashboard_2
+from Graficas import graficas_dashboard_3  
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])     #Declaramos la aplicación Dash con Bootstrap
 
@@ -60,7 +63,7 @@ app.layout = html.Div([
 ])
 
 @app.callback(Output("page-content", "children"), [Input("url", "pathname")]) #Callback para actualizar el contenido basado en la URL
-def render_page_content(pathname):
+def render_page_content(pathname, graficas_dashboard_1, graficas_dashboard_2, graficas_dashboard_3):
     if pathname == "/":                                                       #La dirección a la que pertenece esta pagina
         return html.Div(
             [
@@ -69,7 +72,11 @@ def render_page_content(pathname):
                         html.H2("Directores con mejores calificaciones", style={"font-family": "Lucida Sans, sans-serif", "font-size": "30px", "margin-left": "-50px", "margin-top": "-95px"}, className="lead"),  # Título del Dashboard
                         dbc.Row([
                             dbc.Col(widgets_dropdown_dir(), width=5, className="dropdown-container"),
-                            dbc.Col(widget_rslider(), width=7, className="custom-slider")
+                            dbc.Col(widget_rslider(), width=7, className="custom-slider"),
+                            dbc.Col(graficas_dashboard_1.grafica_barras(), width=12),
+                            dbc.Col(graficas_dashboard_1.grafica_caja(), width=12),
+                            dbc.Col(graficas_dashboard_1.grafica_scatter(), width=12),
+                            dbc.Col(graficas_dashboard_1.grafica_tabla(), width=12)
                         ])                       
                     ],
                     className="container"
@@ -84,7 +91,11 @@ def render_page_content(pathname):
                     [
                         html.H2("Distribuidoras con mayor presupuesto", style={"font-family": "Lucida Sans, sans-serif", "font-size": "30px", "margin-left": "-50px", "margin-top": "-95px"}, className="lead"),  # Título del Dashboard
                         dbc.Row([
-                            dbc.Col(widget_cambios(), width=12)
+                            dbc.Col(widget_cambios(), width=12),
+                            dbc.Col(graficas_dashboard_2.grafica_barras(), width=12),
+                            dbc.Col(graficas_dashboard_2.grafica_pastel(), width=12),
+                            dbc.Col(graficas_dashboard_2.grafica_scatter(), width=12),
+                            dbc.Col(graficas_dashboard_2.grafica_tabla(), width=12)
                         ])                       
                     ],
                     className="container"
@@ -100,7 +111,11 @@ def render_page_content(pathname):
                         html.H2("Directores con mejores calificaciones", style={"font-family": "Lucida Sans, sans-serif", "font-size": "30px", "margin-left": "-50px", "margin-top": "-95px"}, className="lead"),  # Título del Dashboard
                         dbc.Row([
                             dbc.Col(widget_radio(), width=5, className="dropdown-container"),
-                            dbc.Col(widget_rslider(), width=7, className="custom-slider")
+                            dbc.Col(widget_rslider(), width=7, className="custom-slider"),
+                            dbc.Col(graficas_dashboard_3.grafica_lineas(), width=12),
+                            dbc.Col(graficas_dashboard_3.grafica_histograma(), width=12),
+                            dbc.Col(graficas_dashboard_3.grafica_barras(), width=12),
+                            dbc.Col(graficas_dashboard_3.grafica_tabla(), width=12)
                         ])                       
                     ],
                     className="container"
