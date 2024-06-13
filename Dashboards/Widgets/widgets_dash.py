@@ -19,7 +19,7 @@ sirve para agregar la cantidad de datos que se quieren ver en los dashboards.
 """
 def widget_rslider(data:pd.DataFrame):                                         
     max_val= len(data)                                                         
-    rango = dcc.RangeSlider(1, max_val,10, value=[0, 10], id="tcalf",
+    rango = dcc.RangeSlider(0, max_val,10, value=[0, 10], id="tcalf",
                             tooltip={"placement": "bottom", "always_visible": True})
     return rango
 
@@ -31,7 +31,8 @@ cambio presupuesto.
 """
 def widget_radio():
     Comparacion_prs = dcc.RadioItems(["Presupuesto total",
-        "Presupuesto promedio"], id="radmpresupuesto", value="Presupuesto total", inline=True)
+        "Presupuesto promedio"], id="radmpresupuesto", value="Presupuesto total", style={'color': '#000', 'font-size': "30px", 'background-color': "#e5b808", "margin-left":"20px",
+                                                                                         "border-radius":"20px"})
     return Comparacion_prs
 
 """
