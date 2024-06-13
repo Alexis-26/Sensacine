@@ -2,7 +2,7 @@
 """Importando las funciones."""
 import Proceso_Web_Scrapping as pwb
 import proceso_limpieza_y_carga as plc
-from Pagina_principal import app
+from pagina_principal import app
 
 """Menu de opciones para ejecutar cada proceso."""
 def mostrar_menu():

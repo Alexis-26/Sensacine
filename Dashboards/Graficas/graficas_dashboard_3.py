@@ -15,7 +15,7 @@ def grafica_lineas(data:pd.DataFrame):
         paper_bgcolor="#2B2A2A",
         font_color="#ffffff"
     )
-    line.update_traces(marker=dict(color="#faca0a"))
+    line.update_traces(line=dict(color="#faca0a"), marker=dict(color="#faca0a"))
     return dcc.Graph(id="dash3line", figure=line)
 
 """Creando grafica de histograma y retornando su id y la propiedad con la grafica."""
@@ -48,7 +48,10 @@ def grafica_barras(data:pd.DataFrame):
 def grafica_tabla(data:pd.DataFrame):
     global df_org
     df_org = data
-    tabla = dash_table.DataTable(id="dash3tabla", data= data.to_dict("records"), page_size=10)
+    tabla = dash_table.DataTable(id="dash3tabla", data= data.to_dict("records"), page_size=10, style_table={"overflowX": "auto", "width": "100%", "minWidth": "100%"},
+        style_cell={"textAlign": "left", "whiteSpace": "normal", "height": "auto"},
+        style_header={"backgroundColor": "#e5b808", "color": "#2B2A2A"},
+        style_data={"backgroundColor": "rgb(50, 50, 50)", "color": "white"})
     return tabla
 
 """
@@ -84,7 +87,7 @@ def evento(opcion, rango):
         paper_bgcolor="#2B2A2A",
         font_color="#ffffff"
     )
-    line.update_traces(marker=dict(color="#faca0a"))
+    line.update_traces(line=dict(color="#faca0a"), marker=dict(color="#faca0a"))
     hist = px.histogram(df_filtrado, x="año", y=data)
     hist.update_layout(
         plot_bgcolor="#2B2A2A",

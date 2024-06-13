@@ -41,14 +41,18 @@ def grafica_scatter(data:pd.DataFrame):
         paper_bgcolor="#2B2A2A",
         font_color="#ffffff"
     )
-    scatter.update_traces(marker=dict(color="#faca0a"))
+    scatter.update_traces(marker=dict(size=15, color="#faca0a"))
     return dcc.Graph(id="dash1scatter", figure=scatter)
 
 """Creando la tabla con los datos utilizados y retornando su id con la propiedad data."""
 def grafica_tabla(data:pd.DataFrame):
     global df_org
     df_org = data
-    tabla = dash_table.DataTable(id="dash1tabla", data= data.to_dict("records"), page_size=10)
+    tabla = dash_table.DataTable(id="dash1tabla", data= data.to_dict("records"), page_size=10,
+                                 style_table={"overflowX": "auto", "width": "100%", "minWidth": "100%"},
+        style_cell={"textAlign": "left", "whiteSpace": "normal", "height": "auto"},
+        style_header={"backgroundColor": "#e5b808", "color": "#2B2A2A"},
+        style_data={"backgroundColor": "rgb(50, 50, 50)", "color": "white"})
     return tabla
 
 """
@@ -96,6 +100,6 @@ def evento(opcion, rango):
         paper_bgcolor="#2B2A2A",
         font_color="#ffffff"
     )
-    scatter.update_traces(marker=dict(color="#faca0a"))
+    scatter.update_traces(marker=dict(size=15, color="#faca0a"))
     tabla = df.to_dict("records")
     return bar, box, scatter, tabla
